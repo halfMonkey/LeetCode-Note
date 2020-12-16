@@ -3,11 +3,11 @@ import os
 def markDown( folderName:str )->str:
     res = ""
     date = folderName.replace('-', '/')
-    res = "### " + date + "\n" + '\n'
+    res = "### " + date[2:] + "\n" + '\n'
     files = openFolder(folderName)
     for name in files:
-        res += '[' + name + ']' + '(' + files[name][0] + ')' +'\n'
-        res +=  '\t\t' + '[Source Code]' + '(' + files[name][1] + ')' + '\n' 
+        res += '[' + name + ']' + '(' + files[name][0] + ')' +'\n\n'
+        res +=  '\n\n' + '[Source Code]' + '(' + files[name][1] + ')' + '\n\n' 
 
     res += '\n'
     return res
