@@ -7,7 +7,8 @@ def markDown( folderName:str )->str:
     files = openFolder(folderName)
     for name in files:
         res += '[' + name + ']' + '(' + files[name][0] + ')' +'\n\n'
-        res +=  '\n\n' + '[Source Code]' + '(' + files[name][1] + ')' + '\n\n' 
+        files[name][1] = str(files[name][1]).replace(' ', '\ ')
+        res +=  '\n > ' + '[Source Code]' + '(' + files[name][1] + ')' + '\n\n' 
 
     res += '\n'
     return res

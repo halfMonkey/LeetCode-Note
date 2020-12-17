@@ -1,0 +1,12 @@
+#121. Best Time to Buy and Sell Stock
+#https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+def maxProfit(self, prices: List[int]) -> int:
+    mi = float('inf')
+    mx = 0
+    
+    for i in prices:
+        mi = min(i, mi)
+        mx = max(mx, i-mi)
+        
+    return mx
