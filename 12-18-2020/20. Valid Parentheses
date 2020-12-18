@@ -1,0 +1,18 @@
+#20. Valid Parentheses
+#https://leetcode.com/problems/valid-parentheses/
+
+def isValid(self, s: str) -> bool:
+    sk = []
+    m = {')':'(',']':'[','}':'{'}
+    sets = set(['(', '[', '{'])
+    
+    for i in s:
+        if i in sets:
+            sk.append(i)
+        else:
+            if sk and m[i] == sk[-1]:
+                sk.pop()
+            else:
+                return False
+    
+    return True if not sk else False
