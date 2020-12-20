@@ -1,0 +1,33 @@
+#234. Palindrome Linked List
+#https://leetcode.com/problems/palindrome-linked-list/
+
+def isPalindrome(self, head: ListNode) -> bool:
+    def half(head):
+        f = head
+        s = head
+        while f.next and f.next.next:
+            f = f.next.next
+            s = s.next
+            
+        return s
+    def reverseNodes(head):
+        p = None
+        cur = head
+        while cur:
+            nextNode = cur.next
+            cur.next = p
+            p = cur
+            cur = nextNode
+        return p
+    
+    if not head: return True
+    
+    first = half(head)
+    second = reverseNodes(first.next)
+    
+    while second:
+        if head.val != second.val:return False
+        head = head.next
+        second = second.next
+    
+    return True
