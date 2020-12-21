@@ -1,0 +1,14 @@
+#560. Subarray Sum Equals K
+#https://leetcode.com/problems/subarray-sum-equals-k/
+
+def subarraySum(self, nums: List[int], k: int) -> int:
+    m = {0:1}
+    total = sums = 0
+    
+    for i, v in enumerate(nums):
+        sums += v
+        if sums - k in m:
+            total += m[sums -k]
+        m[sums] = m[sums] + 1 if sums in m else 1
+    
+    return total

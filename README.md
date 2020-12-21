@@ -116,3 +116,32 @@
 
 
 
+### 12/20/2020
+
+[138.CopyListwithRandomPointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+
+
+ > [Source Code](./12-20-2020/138.&#32;Copy&#32;List&#32;with&#32;Random&#32;Pointer)
+
+[380.InsertDeleteGetRandomO(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+
+
+ > [Source Code](./12-20-2020/380.&#32;Insert&#32;Delete&#32;GetRandom&#32;O(1))
+
+[560.SubarraySumEqualsK](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+
+ > [Source Code](./12-20-2020/560.&#32;Subarray&#32;Sum&#32;Equals&#32;K)
+
+[953.VerifyinganAlienDictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)
+
+
+ > [Source Code](./12-20-2020/953.&#32;Verifying&#32;an&#32;Alien&#32;Dictionary)
+
+[981.TimeBasedKey-ValueStore](https://leetcode.com/problems/time-based-key-value-store/)
+
+
+ > [Source Code](./12-20-2020/981.&#32;Time&#32;Based&#32;Key-Value&#32;Store)
+
+
+

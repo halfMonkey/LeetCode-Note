@@ -1,0 +1,30 @@
+#138. Copy List with Random Pointer
+#https://leetcode.com/problems/copy-list-with-random-pointer/
+
+def copyRandomList(self, head: 'Node') -> 'Node':
+    m = {}
+    def getClone(node: 'Node'):
+        nonlocal m
+        if node:
+            if node in m:
+                return m[node]
+            else:
+                m[node] = Node(node.val)
+                return m[node]
+        return None
+    
+    if not head:
+        return head
+    
+    old = head
+    new = Node(old.val)
+    m[old] = new
+    
+    while old:
+        new.random = getClone(old.random)
+        new.next   = getClone(old.next)
+        
+        old = old.next
+        new = new.next
+    
+    return m[head]
