@@ -1,0 +1,15 @@
+#98. Validate Binary Search Tree
+#https://leetcode.com/problems/validate-binary-search-tree/
+
+def isValidBST(self, root: TreeNode) -> bool:
+    
+    def Compare(root: TreeNode, l, r):
+        if not root:
+            return True
+        
+        if root.val <= l or root.val >= r:
+            return False
+        
+        return Compare(root.right, root.val, r) and Compare(root.left, l, root.val)
+    
+    return Compare(root, float('-inf'), float('inf'))

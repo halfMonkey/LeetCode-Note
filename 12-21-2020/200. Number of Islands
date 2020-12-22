@@ -1,0 +1,23 @@
+#200. Number of Islands
+#https://leetcode.com/problems/number-of-islands/
+
+def numIslands(self, grid: List[List[str]]) -> int:
+    c = 0
+    m, n = len(grid), len(grid[0])
+    mv   = [(1,0), (-1,0), (0,1), (0, -1)]
+    
+    def clearLand(grid, x, y):
+        nonlocal m, n, mv
+        grid[x][y] = "0"
+        
+        for mx, my in mv:
+            if 0 <= mx + x < m and 0 <= my + y < n \
+            and grid[mx+x][my+y] == "1":
+                clearLand(grid, mx+x, my+y)
+    
+    for i in range(m):
+        for j in range(n):
+            if grid[i][j] == "1":
+                c += 1
+                clearLand(grid, i, j)
+    return c
