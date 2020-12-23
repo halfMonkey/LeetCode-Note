@@ -1,0 +1,23 @@
+#1197. Minimum Knight Moves
+#https://leetcode.com/problems/minimum-knight-moves/
+
+def minKnightMoves(self, x: int, y: int) -> int:
+    mvs = [(2,1),(2,-1),(-2,1),(-2,-1),(1,2),(1,-2),(-1,2),(-1,-2)]
+    
+    q = collections.deque([(0,0,0)])
+    v = set()
+    v.add((0,0))
+    
+    while q:
+        tx, ty, lv = q.popleft()
+        if (tx, ty) == (x, y):
+            return lv 
+        
+        for mx, my in mvs:
+            x1, y1 = mx+tx, my+ty
+            if (x1, y1) not in v:
+                v.add((x1,y1))
+                q.append((x1,y1,lv+1))
+        
+        
+    return 0

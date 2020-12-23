@@ -1,0 +1,33 @@
+#127. Word Ladder
+#https://leetcode.com/problems/word-ladder/
+
+def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+    if endWord not in wordList or not endWord or not beginWord or not wordList:
+        return 0
+    
+    m = collections.defaultdict(list)
+    v = {}
+    
+    L = len(beginWord)
+    
+    for w in wordList:
+        for i in range(L):
+            tmp = w[:i] + "$" +w[i+1:]
+            m[tmp].append(w)
+
+    q = collections.deque([(beginWord, 1)])
+    v[beginWord] = True
+    
+    while q:
+        cur, lv = q.popleft()
+        for i in range(L):
+            tmp = cur[:i] + "$" + cur[i+1:]
+            for w in m[tmp]:
+                if w == endWord:
+                    return lv + 1
+                if w not in v:
+                    v[w] = True
+                    q.append((w, lv+1))
+            m[tmp] = []
+            
+    return 0

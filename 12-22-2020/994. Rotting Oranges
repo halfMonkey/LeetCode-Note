@@ -1,0 +1,33 @@
+#994. Rotting Oranges
+#https://leetcode.com/problems/rotting-oranges/
+
+def orangesRotting(self, grid: List[List[int]]) -> int:
+    mvs = [(0,1), (0,-1), (1,0), (-1,0)]
+    
+    m = len(grid)
+    n = len(grid[0]) if m else 0
+    total = 2
+    allBad = False
+    
+    while not allBad:
+        allBad = True
+        
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == total:
+                    for x, y in mvs:
+                        tx, ty = i+x, j+y
+                        if 0 <= tx < m and 0 <= ty < n:
+                            if grid[tx][ty] == 1:
+                                allBad = False
+                                L = grid[i][j] + 1
+                                grid[tx][ty] = L
+        total += 1
+    
+    for i in range(m):
+        for j in range(n):
+            if grid[i][j] == 1:
+                return -1
+    
+    
+    return total-3

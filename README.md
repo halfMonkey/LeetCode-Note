@@ -174,3 +174,32 @@
 
 
 
+### 12/22/2020
+
+[103.BinaryTreeZigzagLevelOrderTraversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
+
+ > [Source Code](./12-22-2020/103.&#32;Binary&#32;Tree&#32;Zigzag&#32;Level&#32;Order&#32;Traversal)
+
+[1197.MinimumKnightMoves](https://leetcode.com/problems/minimum-knight-moves/)
+
+
+ > [Source Code](./12-22-2020/1197.&#32;Minimum&#32;Knight&#32;Moves)
+
+[127.WordLadder](https://leetcode.com/problems/word-ladder/)
+
+
+ > [Source Code](./12-22-2020/127.&#32;Word&#32;Ladder)
+
+[863.AllNodesDistanceKinBinaryTree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+
+
+ > [Source Code](./12-22-2020/863.&#32;All&#32;Nodes&#32;Distance&#32;K&#32;in&#32;Binary&#32;Tree)
+
+[994.RottingOranges](https://leetcode.com/problems/rotting-oranges/)
+
+
+ > [Source Code](./12-22-2020/994.&#32;Rotting&#32;Oranges)
+
+
+
