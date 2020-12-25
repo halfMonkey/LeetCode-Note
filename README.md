@@ -232,3 +232,32 @@
 
 
 
+### 12/25/2020
+
+[1249.MinimumRemovetoMakeValidParentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+
+
+ > [Source Code](./12-25-2020/1249.&#32;Minimum&#32;Remove&#32;to&#32;Make&#32;Valid&#32;Parentheses)
+
+[155.MinStack](https://leetcode.com/problems/min-stack/)
+
+
+ > [Source Code](./12-25-2020/155.&#32;Min&#32;Stack)
+
+[224.BasicCalculator](https://leetcode.com/problems/basic-calculator/)
+
+
+ > [Source Code](./12-25-2020/224.&#32;Basic&#32;Calculator)
+
+[227.BasicCalculatorII](https://leetcode.com/problems/basic-calculator-ii/)
+
+
+ > [Source Code](./12-25-2020/227.&#32;Basic&#32;Calculator&#32;II)
+
+[84.LargestRectangleinHistogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+
+ > [Source Code](./12-25-2020/84.&#32;Largest&#32;Rectangle&#32;in&#32;Histogram)
+
+
+

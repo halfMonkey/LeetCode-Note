@@ -1,0 +1,27 @@
+#227. Basic Calculator II
+#https://leetcode.com/problems/basic-calculator-ii/
+
+def calculate(self, s: str) -> int:
+    ls = []
+    op = '+'
+    num = ''
+    for i, v in enumerate(s):
+        if v.isdigit():
+            num += v
+        if not (v.isdigit() or v == " ") or i == len(s)-1:
+            num = int(num)
+            if op == '+':
+                ls.append(num)
+            elif op == '-':
+                ls.append(-num)
+            elif op == '*':
+                print(op, v, ls)
+                ls.append(num * ls.pop())
+            else:
+                tmp = ls.pop()
+                ls.append(abs(tmp) // num * (-1 if tmp < 0 else 1))
+            
+            op = v
+            num = ''
+            
+    return sum(ls)
