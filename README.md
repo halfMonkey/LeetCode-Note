@@ -273,10 +273,49 @@
 
  > [Source Code](./12-26-2020/2.&#32;Add&#32;Two&#32;Numbers)
 
+[238.ProductofArrayExceptSelf](https://leetcode.com/problems/product-of-array-except-self/)
+
+
+ > [Source Code](./12-26-2020/238.&#32;Product&#32;of&#32;Array&#32;Except&#32;Self)
+
 [56.MergeIntervals](https://leetcode.com/problems/merge-intervals/)
 
 
  > [Source Code](./12-26-2020/56.&#32;Merge&#32;Intervals)
+
+
+
+### 12/27/2020
+
+[139.WordBreak](https://leetcode.com/problems/word-break/)
+
+
+ > [Source Code](./12-27-2020/139.&#32;Word&#32;Break)
+
+[1705.MaximumNumberofEatenApples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)
+
+
+ > [Source Code](./12-27-2020/1705.&#32;Maximum&#32;Number&#32;of&#32;Eaten&#32;Apples)
+
+[1706.WhereWilltheBallFall](https://leetcode.com/problems/where-will-the-ball-fall/)
+
+
+ > [Source Code](./12-27-2020/1706.&#32;Where&#32;Will&#32;the&#32;Ball&#32;Fall)
+
+[206.ReverseLinkedList](https://leetcode.com/problems/reverse-linked-list/)
+
+
+ > [Source Code](./12-27-2020/206.&#32;Reverse&#32;Linked&#32;List)
+
+[21.MergeTwoSortedLists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+
+ > [Source Code](./12-27-2020/21.&#32;Merge&#32;Two&#32;Sorted&#32;Lists)
+
+[23.MergekSortedLists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+
+ > [Source Code](./12-27-2020/23.&#32;Merge&#32;k&#32;Sorted&#32;Lists)
 
 
 
