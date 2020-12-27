@@ -1,0 +1,23 @@
+#23. Merge k Sorted Lists
+#https://leetcode.com/problems/merge-k-sorted-lists/
+
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        ls = []
+        
+        heapq.heapify(ls)
+        head = cur = ListNode(-1)
+        
+        for l in lists:
+            if l:
+                heapq.heappush(ls, (l.val,id(l),l))
+        
+        while ls:
+            val, tmp ,node = heapq.heappop(ls)
+            cur.next = ListNode(val)
+            cur = cur.next
+            node = node.next
+            if node:
+                heapq.heappush(ls, (node.val,id(node),node))
+            
+        return head.next

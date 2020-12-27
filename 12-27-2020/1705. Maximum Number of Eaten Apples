@@ -1,0 +1,32 @@
+#1705. Maximum Number of Eaten Apples
+#https://leetcode.com/problems/maximum-number-of-eaten-apples/
+
+class Solution:
+    def eatenApples(self, apples: List[int], days: List[int]) -> int:
+        m = {}
+        q = []
+        heapq.heapify(q)
+        c = 0
+        L = len(apples)
+        curday = 0
+        
+        while q or curday < len(apples):
+            if curday < L:
+                curExp = curday + days[curday]
+                if not curExp in m:
+                    heapq.heappush(q, curExp)
+                m[curExp] = m.get(curExp, 0) + apples[curday]
+            
+            while q and q[0] <= curday:
+                heapq.heappop(q)
+            
+            if q:
+                last = q[0]
+                c += 1
+                m[last] -= 1
+                if m[last] == 0:
+                    heapq.heappop(q)
+                    del m[last]
+            curday += 1
+            
+        return c

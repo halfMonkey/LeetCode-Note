@@ -1,0 +1,20 @@
+#139. Word Break
+#https://leetcode.com/problems/word-break/
+
+class Solution:
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+        sets = set(wordDict)
+        q = collections.deque([0])
+        v = len(s) * [False]
+        L = len(s)
+        while q:
+            begain = q.pop()
+            if not v[begain]:
+                for i in range(begain+1, L+1):
+                    if s[begain:i] in sets:
+                        q.append(i)
+                        if i == L:
+                            return True
+                v[begain] = True
+        
+        return False

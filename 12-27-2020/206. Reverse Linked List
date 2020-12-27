@@ -1,0 +1,15 @@
+#206. Reverse Linked List
+#https://leetcode.com/problems/reverse-linked-list/
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        cur = ListNode()
+        
+        while head:
+            cur.val = head.val
+            tmp = ListNode()
+            tmp.next = cur
+            cur = tmp
+            head = head.next
+        
+        return cur.next
