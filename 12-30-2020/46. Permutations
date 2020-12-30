@@ -1,0 +1,18 @@
+#46. Permutations
+#https://leetcode.com/problems/permutations/
+
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        
+        
+        def backtrack(idx, res, num,n):
+            if idx == n:
+                res.append(num)
+            for i in range(idx, n):
+                num[i], num[idx] = num[idx], num[i]
+                backtrack(idx+1, res, num[:], n)
+                num[idx], num[i] = num[i], num[idx]
+            
+        out = []
+        backtrack(0,out,nums,len(nums))
+        return out

@@ -1,0 +1,20 @@
+#49. Group Anagrams
+#https://leetcode.com/problems/group-anagrams/
+
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        
+        m = collections.defaultdict(list)
+        
+        for word in strs:
+            ls = [0] * 26
+            for j in word:
+                ls[ord(j) - ord('a')] += 1
+            
+            tmp = ''
+            for i in ls:
+                tmp += '#' + str(i)
+            m[tmp].append(word)
+            
+        
+        return m.values()

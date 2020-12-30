@@ -1,0 +1,37 @@
+#297. Serialize and Deserialize Binary Tree
+#https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
+class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        if not root:
+            return "None,"
+        else:
+             return str(root.val) + "," + self.serialize(root.left) + self.serialize(root.right)
+    
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        def rdeserialize(l):
+            if l[0] == 'None':
+                l.popleft()
+                return None
+                
+            root = TreeNode(l[0])
+            l.popleft()
+            root.left = rdeserialize(l)
+            root.right = rdeserialize(l)
+            return root
+
+        data_list = collections.deque(data.split(','))
+        root = rdeserialize(data_list)
+        return root
+        

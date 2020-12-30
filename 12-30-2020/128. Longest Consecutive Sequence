@@ -1,0 +1,20 @@
+#128. Longest Consecutive Sequence
+#https://leetcode.com/problems/longest-consecutive-sequence/
+
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        streak = 0
+        num = set(nums)
+        
+        for i in num:
+            if i - 1 not in num:
+                cur = i
+                cur_streak = 1
+                
+                while cur + 1 in num:
+                    cur += 1
+                    cur_streak += 1
+                
+                streak = max(cur_streak, streak)
+        
+        return streak

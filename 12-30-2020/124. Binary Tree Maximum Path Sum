@@ -1,0 +1,23 @@
+#124. Binary Tree Maximum Path Sum
+#https://leetcode.com/problems/binary-tree-maximum-path-sum/
+
+class Solution:
+    def maxPathSum(self, root: TreeNode) -> int:
+        
+        maxSum = -1000
+        def maxP(node):
+            nonlocal maxSum
+            if not node:
+                return 0
+            
+            l = max(maxP(node.left), 0)
+            r = max(maxP(node.right), 0)
+            
+            path = node.val + l + r
+            
+            maxSum = max(path, maxSum)
+            
+            return node.val + max(l, r)
+        
+        maxP(root)
+        return maxSum
