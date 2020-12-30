@@ -1,0 +1,35 @@
+#79. Word Search
+#https://leetcode.com/problems/word-search/
+
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        
+        mv = [(0,1),(0,-1),(1,0),(-1,0)]
+        find = False
+        
+        def backtrack(x,y, idx):
+            nonlocal find
+            if idx == len(word)-1:
+                find = True
+            
+            t = board[x][y]
+            board[x][y] = '0'
+            
+            for ix, iy in mv:
+                tx, ty = x+ix, y+iy
+                if 0 <= tx < len(board) and 0 <= ty < len(board[0]) \
+                and idx < len(word)-1 and board[tx][ty] == word[idx+1]:
+                    backtrack(tx,ty, idx+1)
+                if find:
+                    break
+                    
+            board[x][y] = t
+            
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if board[i][j] == word[0]:
+                    backtrack(i,j,0)
+                if find:
+                    return True
+                
+        return False

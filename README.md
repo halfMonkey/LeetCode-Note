@@ -348,3 +348,32 @@
 
 
 
+### 12/29/2020
+
+[215.KthLargestElementinanArray](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
+
+ > [Source Code](./12-29-2020/215.&#32;Kth&#32;Largest&#32;Element&#32;in&#32;an&#32;Array)
+
+[22.GenerateParentheses](https://leetcode.com/problems/generate-parentheses/)
+
+
+ > [Source Code](./12-29-2020/22.&#32;Generate&#32;Parentheses)
+
+[239.SlidingWindowMaximum](https://leetcode.com/problems/sliding-window-maximum/)
+
+
+ > [Source Code](./12-29-2020/239.&#32;Sliding&#32;Window&#32;Maximum)
+
+[347.TopKFrequentElements](https://leetcode.com/problems/top-k-frequent-elements/)
+
+
+ > [Source Code](./12-29-2020/347.&#32;Top&#32;K&#32;Frequent&#32;Elements)
+
+[79.WordSearch](https://leetcode.com/problems/word-search/)
+
+
+ > [Source Code](./12-29-2020/79.&#32;Word&#32;Search)
+
+
+

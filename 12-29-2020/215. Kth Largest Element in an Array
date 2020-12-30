@@ -1,0 +1,36 @@
+#215. Kth Largest Element in an Array
+#https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        def partition(l,r, pivot):
+            p = nums[pivot]
+            nums[pivot], nums[r] = nums[r], nums[pivot]
+            
+            idx = l
+            for i in range(l, r):
+                if nums[i] >= p:
+                    nums[idx], nums[i] = nums[i], nums[idx]
+                    idx += 1
+                    
+            nums[idx], nums[r] = nums[r], nums[idx]
+            
+            return idx
+            
+        
+        
+        def quickSelect(l, r, kth):
+            if l == r:
+                return nums[l]
+            
+            idx = random.randint(l,r)
+            idx = partition(l,r, idx)
+            
+            if kth == idx:
+                return nums[kth]
+            elif kth < idx:
+                return quickSelect(l, idx-1, kth)
+            else:
+                return quickSelect(idx+1, r, kth)
+            
+        return quickSelect(0, len(nums)-1, k-1)
