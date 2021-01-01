@@ -411,3 +411,37 @@
 
 
 
+### 12/31/2020
+
+[1235.MaximumProfitinJobScheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+
+
+ > [Source Code](./12-31-2020/1235.&#32;Maximum&#32;Profit&#32;in&#32;Job&#32;Scheduling)
+
+[1335.MinimumDifficultyofaJobSchedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
+
+
+ > [Source Code](./12-31-2020/1335.&#32;Minimum&#32;Difficulty&#32;of&#32;a&#32;Job&#32;Schedule)
+
+[152.MaximumProductSubarray](https://leetcode.com/problems/maximum-product-subarray/)
+
+
+ > [Source Code](./12-31-2020/152.&#32;Maximum&#32;Product&#32;Subarray)
+
+[300.LongestIncreasingSubsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
+
+ > [Source Code](./12-31-2020/300.&#32;Longest&#32;Increasing&#32;Subsequence)
+
+[62.UniquePaths](https://leetcode.com/problems/unique-paths/)
+
+
+ > [Source Code](./12-31-2020/62.&#32;Unique&#32;Paths)
+
+[64.MinimumPathSum](https://leetcode.com/problems/minimum-path-sum/)
+
+
+ > [Source Code](./12-31-2020/64.&#32;Minimum&#32;Path&#32;Sum)
+
+
+
