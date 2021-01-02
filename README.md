@@ -1,5 +1,34 @@
 # Leet Code Note 
 
+### 1/1/2021
+
+[115.DistinctSubsequences](https://leetcode.com/problems/distinct-subsequences/)
+
+
+ > [Source Code](./1-1-2021/115.&#32;Distinct&#32;Subsequences)
+
+[1531.StringCompressionII](https://leetcode.com/problems/string-compression-ii/)
+
+
+ > [Source Code](./1-1-2021/1531.&#32;String&#32;Compression&#32;II)
+
+[198.HouseRobber](https://leetcode.com/problems/house-robber/)
+
+
+ > [Source Code](./1-1-2021/198.&#32;House&#32;Robber)
+
+[647.PalindromicSubstrings](https://leetcode.com/problems/palindromic-substrings/)
+
+
+ > [Source Code](./1-1-2021/647.&#32;Palindromic&#32;Substrings)
+
+[72.EditDistance](https://leetcode.com/problems/edit-distance/)
+
+
+ > [Source Code](./1-1-2021/72.&#32;Edit&#32;Distance)
+
+
+
 ### 12/15/2020
 
 [15.3Sum](https://leetcode.com/problems/3sum/)
