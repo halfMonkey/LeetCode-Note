@@ -29,6 +29,35 @@
 
 
 
+### 1/2/2021
+
+[1326.MinimumNumberofTapstoOpentoWateraGarden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+
+
+ > [Source Code](./1-2-2021/1326.&#32;Minimum&#32;Number&#32;of&#32;Taps&#32;to&#32;Open&#32;to&#32;Water&#32;a&#32;Garden)
+
+[279.PerfectSquares](https://leetcode.com/problems/perfect-squares/)
+
+
+ > [Source Code](./1-2-2021/279.&#32;Perfect&#32;Squares)
+
+[32.LongestValidParentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+
+
+ > [Source Code](./1-2-2021/32.&#32;Longest&#32;Valid&#32;Parentheses)
+
+[44.WildcardMatching](https://leetcode.com/problems/wildcard-matching/)
+
+
+ > [Source Code](./1-2-2021/44.&#32;Wildcard&#32;Matching)
+
+[871.MinimumNumberofRefuelingStops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)
+
+
+ > [Source Code](./1-2-2021/871.&#32;Minimum&#32;Number&#32;of&#32;Refueling&#32;Stops)
+
+
+
 ### 12/15/2020
 
 [15.3Sum](https://leetcode.com/problems/3sum/)
