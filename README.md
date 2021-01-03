@@ -58,6 +58,45 @@
 
 
 
+### 1/3/2021
+
+[1048.LongestStringChain](https://leetcode.com/problems/longest-string-chain/)
+
+
+ > [Source Code](./1-3-2021/1048.&#32;Longest&#32;String&#32;Chain)
+
+[1220.CountVowelsPermutation](https://leetcode.com/problems/count-vowels-permutation/)
+
+
+ > [Source Code](./1-3-2021/1220.&#32;Count&#32;Vowels&#32;Permutation)
+
+[1711.CountGoodMeals](https://leetcode.com/problems/count-good-meals/)
+
+
+ > [Source Code](./1-3-2021/1711.&#32;Count&#32;Good&#32;Meals)
+
+[1712.WaystoSplitArrayIntoThreeSubarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
+
+
+ > [Source Code](./1-3-2021/1712.&#32;Ways&#32;to&#32;Split&#32;Array&#32;Into&#32;Three&#32;Subarrays)
+
+[403.FrogJump](https://leetcode.com/problems/frog-jump/)
+
+
+ > [Source Code](./1-3-2021/403.&#32;Frog&#32;Jump)
+
+[70.ClimbingStairs](https://leetcode.com/problems/climbing-stairs/)
+
+
+ > [Source Code](./1-3-2021/70.&#32;Climbing&#32;Stairs)
+
+[741.CherryPickup](https://leetcode.com/problems/cherry-pickup/)
+
+
+ > [Source Code](./1-3-2021/741.&#32;Cherry&#32;Pickup)
+
+
+
 ### 12/15/2020
 
 [15.3Sum](https://leetcode.com/problems/3sum/)

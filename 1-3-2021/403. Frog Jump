@@ -1,0 +1,16 @@
+#403. Frog Jump
+#https://leetcode.com/problems/frog-jump/
+
+class Solution:
+    def canCross(self, stones: List[int]) -> bool:
+        m = collections.defaultdict(set)
+        m[0].add(0)
+        
+        for i in range(len(stones)):
+            for k in m[stones[i]]:
+                for mv in range(k-1,k+2):
+                    if mv > 0:
+                        m[stones[i]+mv].add(mv)
+                        
+        return len(m[stones[-1]]) > 0
+        
