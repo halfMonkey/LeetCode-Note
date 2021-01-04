@@ -1,0 +1,25 @@
+#472. Concatenated Words
+#https://leetcode.com/problems/concatenated-words/
+
+class Solution:
+    def findAllConcatenatedWordsInADict(self, A):
+        S = set(A)
+        ans = []
+        for word in A:
+          if not word: continue
+          stack = [0]
+          seen = {0}
+          M = len(word)
+          while stack:
+            node = stack.pop()
+            if node == M:
+              ans.append(word)
+              break
+            for j in range(M - node + 1):
+              if (word[node:node+j] in S and 
+                  node + j not in seen and
+                  (node > 0 or node + j != M)):
+                stack.append(node + j)
+                seen.add(node + j)
+
+        return ans

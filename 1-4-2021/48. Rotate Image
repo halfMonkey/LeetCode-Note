@@ -1,0 +1,22 @@
+#48. Rotate Image
+#https://leetcode.com/problems/rotate-image/
+
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        L = len(matrix)
+        half = L //2
+        for i in range(L // 2 + L % 2):
+            for j in range(half):
+                tmp = [0] * 4
+                row, col = i, j
+                
+                for k in range(4):
+                    tmp[k] = matrix[row][col]
+                    row, col = col, L - row - 1
+                
+                for k in [3,0,1,2]:
+                    matrix[row][col] = tmp[k]
+                    row, col = col, L - row - 1
