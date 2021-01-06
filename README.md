@@ -131,6 +131,69 @@
 
 
 
+### 1/5/2021
+
+[240.Searcha2DMatrixII](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
+
+ > [Source Code](./1-5-2021/240.&#32;Search&#32;a&#32;2D&#32;Matrix&#32;II)
+
+[287.FindtheDuplicateNumber](https://leetcode.com/problems/find-the-duplicate-number/)
+
+
+ > [Source Code](./1-5-2021/287.&#32;Find&#32;the&#32;Duplicate&#32;Number)
+
+[45.JumpGameII](https://leetcode.com/problems/jump-game-ii/)
+
+
+ > [Source Code](./1-5-2021/45.&#32;Jump&#32;Game&#32;II)
+
+[739.DailyTemperatures](https://leetcode.com/problems/daily-temperatures/)
+
+
+ > [Source Code](./1-5-2021/739.&#32;Daily&#32;Temperatures)
+
+[78.Subsets](https://leetcode.com/problems/subsets/)
+
+
+ > [Source Code](./1-5-2021/78.&#32;Subsets)
+
+
+
+### 1/6/2021
+
+[148.SortList](https://leetcode.com/problems/sort-list/)
+
+
+ > [Source Code](./1-6-2021/148.&#32;Sort&#32;List)
+
+[169.MajorityElement](https://leetcode.com/problems/majority-element/)
+
+
+ > [Source Code](./1-6-2021/169.&#32;Majority&#32;Element)
+
+[207.CourseSchedule](https://leetcode.com/problems/course-schedule/)
+
+
+ > [Source Code](./1-6-2021/207.&#32;Course&#32;Schedule)
+
+[34.FindFirstandLastPositionofElementinSortedArray](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+
+ > [Source Code](./1-6-2021/34.&#32;Find&#32;First&#32;and&#32;Last&#32;Position&#32;of&#32;Element&#32;in&#32;Sorted&#32;Array)
+
+[39.CombinationSum](https://leetcode.com/problems/combination-sum/)
+
+
+ > [Source Code](./1-6-2021/39.&#32;Combination&#32;Sum)
+
+[543.DiameterofBinaryTree](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+
+ > [Source Code](./1-6-2021/543.&#32;Diameter&#32;of&#32;Binary&#32;Tree)
+
+
+
 ### 12/15/2020
 
 [15.3Sum](https://leetcode.com/problems/3sum/)
