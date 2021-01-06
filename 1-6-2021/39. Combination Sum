@@ -1,0 +1,20 @@
+#39. Combination Sum
+#https://leetcode.com/problems/combination-sum/
+
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        
+        res = []
+        
+        def backtrack(ls, target, idx):
+            if target == 0:
+                res.append(ls)
+                
+            for i in range(idx, len(candidates)):
+                v = candidates[i]
+                if target - v >= 0:
+                    backtrack(ls[:] + [v], target-v, i)
+            
+        backtrack([], target, 0)
+        return res
+            
