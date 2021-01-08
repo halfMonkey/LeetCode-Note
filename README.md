@@ -194,6 +194,40 @@
 
 
 
+### 1/7/2021
+
+[101.SymmetricTree](https://leetcode.com/problems/symmetric-tree/)
+
+
+ > [Source Code](./1-7-2021/101.&#32;Symmetric&#32;Tree)
+
+[19.RemoveNthNodeFromEndofList](https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/)
+
+
+ > [Source Code](./1-7-2021/19.&#32;Remove&#32;Nth&#32;Node&#32;From&#32;End&#32;of&#32;List)
+
+[226.InvertBinaryTree](https://leetcode.com/problems/invert-binary-tree/)
+
+
+ > [Source Code](./1-7-2021/226.&#32;Invert&#32;Binary&#32;Tree)
+
+[437.PathSumIII](https://leetcode.com/problems/path-sum-iii/)
+
+
+ > [Source Code](./1-7-2021/437.&#32;Path&#32;Sum&#32;III)
+
+[438.FindAllAnagramsinaString](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
+
+ > [Source Code](./1-7-2021/438.&#32;Find&#32;All&#32;Anagrams&#32;in&#32;a&#32;String)
+
+[75.SortColors](https://leetcode.com/problems/sort-colors/)
+
+
+ > [Source Code](./1-7-2021/75.&#32;Sort&#32;Colors)
+
+
+
 ### 12/15/2020
 
 [15.3Sum](https://leetcode.com/problems/3sum/)
