@@ -1,0 +1,19 @@
+#19. Remove Nth Node From End of List
+#https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/
+
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        Dummy = fir = sec = ListNode(-1)
+        Dummy.next = head
+        
+        for i in range(n+1):
+            fir = fir.next
+        
+        while fir:
+            sec = sec.next
+            fir = fir.next
+        
+        sec.next = sec.next.next
+        
+        
+        return Dummy.next 

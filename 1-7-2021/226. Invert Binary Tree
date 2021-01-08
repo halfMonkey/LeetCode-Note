@@ -1,0 +1,21 @@
+#226. Invert Binary Tree
+#https://leetcode.com/problems/invert-binary-tree/
+
+class Solution:
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if not root: return None
+        
+        q = collections.deque()
+        q.append(root)
+        
+        while q:
+            cur = q.pop()
+            cur.left, cur.right = cur.right, cur.left
+            if cur.left:
+                q.append(cur.left)
+            if cur.right:
+                q.append(cur.right)
+                
+        return root
+            
+            
