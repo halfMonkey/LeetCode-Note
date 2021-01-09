@@ -228,6 +228,45 @@
 
 
 
+### 1/8/2021
+
+[102.BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
+
+ > [Source Code](./1-8-2021/102.&#32;Binary&#32;Tree&#32;Level&#32;Order&#32;Traversal)
+
+[114.FlattenBinaryTreetoLinkedList](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+
+
+ > [Source Code](./1-8-2021/114.&#32;Flatten&#32;Binary&#32;Tree&#32;to&#32;Linked&#32;List)
+
+[136.SingleNumber](https://leetcode.com/problems/single-number/)
+
+
+ > [Source Code](./1-8-2021/136.&#32;Single&#32;Number)
+
+[160.IntersectionofTwoLinkedLists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+
+ > [Source Code](./1-8-2021/160.&#32;Intersection&#32;of&#32;Two&#32;Linked&#32;Lists)
+
+[208.ImplementTrie(PrefixTree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+
+ > [Source Code](./1-8-2021/208.&#32;Implement&#32;Trie&#32;(Prefix&#32;Tree))
+
+[55.JumpGame](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/solution/)
+
+
+ > [Source Code](./1-8-2021/55.&#32;Jump&#32;Game)
+
+[581.ShortestUnsortedContinuousSubarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
+
+
+ > [Source Code](./1-8-2021/581.&#32;Shortest&#32;Unsorted&#32;Continuous&#32;Subarray)
+
+
+
 ### 12/15/2020
 
 [15.3Sum](https://leetcode.com/problems/3sum/)
