@@ -1,0 +1,19 @@
+#337. House Robber III
+#https://leetcode.com/problems/house-robber-iii/
+
+class Solution:
+    def rob(self, root: TreeNode) -> int:
+        def helper(node):
+            if not node:return 0
+            
+            left = helper(node.left)
+            right = helper(node.right)
+            
+            rob = node.val + (node.left.val if node.left else 0) + (node.right.val if node.right else 0)
+            not_rob = left + right
+            
+            node.val = not_rob
+            
+            return max(rob, not_rob)
+
+        return helper(root)

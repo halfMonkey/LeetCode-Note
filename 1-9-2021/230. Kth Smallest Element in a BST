@@ -1,0 +1,20 @@
+#230. Kth Smallest Element in a BST
+#https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+
+class Solution:
+    def kthSmallest(self, root: TreeNode, k: int) -> int:
+        ls = []
+        
+        idx = 0
+        while idx < k:
+            while root:
+                ls.append(root)
+                root = root.left
+            root = ls.pop()
+            idx += 1
+            if idx == k:
+                return root.val
+            
+            root = root.right
+        
+        return -1

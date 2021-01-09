@@ -1,0 +1,16 @@
+#141. Linked List Cycle
+#https://leetcode.com/problems/linked-list-cycle/
+
+class Solution:
+    def hasCycle(self, head: ListNode) -> bool:
+        cur = head
+        ncur = cur.next if cur else None
+        
+        while ncur and ncur.next:
+            if ncur == cur:
+                return True
+            cur = cur.next
+            ncur = ncur.next.next
+        
+        return False
+            

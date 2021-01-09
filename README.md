@@ -267,6 +267,70 @@
 
 
 
+### 1/9/2021
+
+[104.MaximumDepthofBinaryTree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+
+ > [Source Code](./1-9-2021/104.&#32;Maximum&#32;Depth&#32;of&#32;Binary&#32;Tree)
+
+[141.LinkedListCycle](https://leetcode.com/problems/linked-list-cycle/)
+
+
+ > [Source Code](./1-9-2021/141.&#32;Linked&#32;List&#32;Cycle)
+
+[142.LinkedListCycleII](https://leetcode.com/problems/linked-list-cycle-ii/)
+
+
+ > [Source Code](./1-9-2021/142.&#32;Linked&#32;List&#32;Cycle&#32;II)
+
+[230.KthSmallestElementinaBST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+
+
+ > [Source Code](./1-9-2021/230.&#32;Kth&#32;Smallest&#32;Element&#32;in&#32;a&#32;BST)
+
+[337.HouseRobberIII](https://leetcode.com/problems/house-robber-iii/)
+
+
+ > [Source Code](./1-9-2021/337.&#32;House&#32;Robber&#32;III)
+
+[338.CountingBits](https://leetcode.com/problems/counting-bits/)
+
+
+ > [Source Code](./1-9-2021/338.&#32;Counting&#32;Bits)
+
+[416.PartitionEqualSubsetSum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+
+ > [Source Code](./1-9-2021/416.&#32;Partition&#32;Equal&#32;Subset&#32;Sum)
+
+[448.FindAllNumbersDisappearedinanArray](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+
+
+ > [Source Code](./1-9-2021/448.&#32;Find&#32;All&#32;Numbers&#32;Disappeared&#32;in&#32;an&#32;Array)
+
+[494.TargetSum](https://leetcode.com/problems/target-sum/)
+
+
+ > [Source Code](./1-9-2021/494.&#32;Target&#32;Sum)
+
+[617.MergeTwoBinaryTrees](https://leetcode.com/problems/merge-two-binary-trees/)
+
+
+ > [Source Code](./1-9-2021/617.&#32;Merge&#32;Two&#32;Binary&#32;Trees)
+
+[94.BinaryTreeInorderTraversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
+
+ > [Source Code](./1-9-2021/94.&#32;Binary&#32;Tree&#32;Inorder&#32;Traversal)
+
+[96.UniqueBinarySearchTrees](https://leetcode.com/problems/unique-binary-search-trees/)
+
+
+ > [Source Code](./1-9-2021/96.&#32;Unique&#32;Binary&#32;Search&#32;Trees)
+
+
+
 ### 12/15/2020
 
 [15.3Sum](https://leetcode.com/problems/3sum/)

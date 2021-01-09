@@ -1,0 +1,28 @@
+#142. Linked List Cycle II
+#https://leetcode.com/problems/linked-list-cycle-ii/
+
+class Solution:
+    def detectCycle(self, head: ListNode) -> ListNode:
+        
+        def cycle(head):
+            slow = head
+            fast = head
+            
+            while fast and fast.next:
+                slow = slow.next
+                fast = fast.next.next
+                if slow == fast:
+                    return fast
+            return None
+        
+        a = cycle(head)
+        if not a: return None
+        
+        p1 = head
+        p2 = a
+        while p1 != p2:
+            p1 = p1.next
+            p2 = p2.next
+            
+        return p1
+        
