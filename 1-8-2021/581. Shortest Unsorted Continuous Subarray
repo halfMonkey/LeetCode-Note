@@ -1,0 +1,21 @@
+#581. Shortest Unsorted Continuous Subarray
+#https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+
+class Solution:
+    def findUnsortedSubarray(self, nums: List[int]) -> int:
+        q = []
+        
+        mi, mx = len(nums), 0
+        for i, v in enumerate(nums):
+            while q and nums[q[-1]] > v:
+                mi = min(mi, q.pop())
+            q.append(i)
+        
+        q = []
+        for i in range(len(nums)-1, -1, -1):
+            while q and nums[q[-1]] < nums[i]:
+                mx = max(mx, q.pop())
+            q.append(i)
+                
+        res = mx - mi
+        return (res + 1) if res > 0 else 0

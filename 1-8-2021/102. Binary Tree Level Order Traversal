@@ -1,0 +1,25 @@
+#102. Binary Tree Level Order Traversal
+#https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+class Solution:
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+        if not root: return []
+        ls = collections.deque([(root, 1)])
+        pre = 1
+        tmp = []
+        res = []
+        while ls:
+            node, lv = ls.popleft()
+            if lv != pre:
+                res.append(tmp)
+                tmp = []
+                pre = lv
+            tmp.append(node.val)
+            
+            if node.left:
+                ls.append((node.left, lv+1))
+            if node.right:
+                ls.append((node.right, lv+1))
+        if tmp:
+            res.append(tmp)
+        return res

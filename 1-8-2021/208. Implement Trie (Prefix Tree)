@@ -1,0 +1,54 @@
+#208. Implement Trie (Prefix Tree)
+#https://leetcode.com/problems/implement-trie-prefix-tree/
+
+class Node:
+    def __init__(self):
+        self.m = {}
+        self.word = False
+
+
+class Trie:
+
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.m = Node()
+
+    def insert(self, word: str) -> None:
+        """
+        Inserts a word into the trie.
+        """
+        node = self.m
+        for i in word:
+            if i not in node.m:
+                node.m[i] = Node()
+            node = node.m[i]
+        node.word = True
+        
+
+    def search(self, word: str) -> bool:
+        """
+        Returns if the word is in the trie.
+        """
+        node = self.m
+        for i in word:
+            if i not in node.m:
+                return False
+            node = node.m[i]
+        if node.word:
+            return True
+        
+        return False
+        
+
+    def startsWith(self, prefix: str) -> bool:
+        """
+        Returns if there is any word in the trie that starts with the given prefix.
+        """
+        node = self.m
+        for i in prefix:
+            if i not in node.m:
+                return False
+            node = node.m[i]
+        return True
