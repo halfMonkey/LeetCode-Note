@@ -1,0 +1,29 @@
+#547. Number of Provinces (Union Find)
+#https://leetcode.com/problems/number-of-provinces/
+
+class Solution:
+    def findCircleNum(self, M: List[List[int]]) -> int:
+        def find(parent, i):
+            if parent[i] == -1:
+                return i
+            return find(parent, parent[i])
+        
+        def union(parent, x, y):
+            xset = find(parent, x)
+            yset = find(parent, y)
+            if xset != yset:
+                parent[xset] = yset
+        
+        parent = [-1] * len(M)
+        m, n = len(M), len(M[0])
+        for i in range(m):
+            for j in range(n):
+                if M[i][j] == 1 and i != j:
+                    union(parent, i,j)
+        
+        c = 0
+        for i in range(m):
+            if parent[i] == -1:
+                c += 1
+        
+        return c

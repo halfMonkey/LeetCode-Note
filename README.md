@@ -29,6 +29,35 @@
 
 
 
+### 1/10/2021
+
+[1722.MinimizeHammingDistanceAfterSwapOperations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/)
+
+
+ > [Source Code](./1-10-2021/1722.&#32;Minimize&#32;Hamming&#32;Distance&#32;After&#32;Swap&#32;Operations)
+
+[305.NumberofIslandsII](https://leetcode.com/problems/number-of-islands-ii/)
+
+
+ > [Source Code](./1-10-2021/305.&#32;Number&#32;of&#32;Islands&#32;II)
+
+[399.EvaluateDivision](https://leetcode.com/problems/evaluate-division/)
+
+
+ > [Source Code](./1-10-2021/399.&#32;Evaluate&#32;Division)
+
+[547.NumberofProvinces(UnionFind)](https://leetcode.com/problems/number-of-provinces/)
+
+
+ > [Source Code](./1-10-2021/547.&#32;Number&#32;of&#32;Provinces)
+
+[721.AccountsMerge](https://leetcode.com/problems/accounts-merge/)
+
+
+ > [Source Code](./1-10-2021/721.&#32;Accounts&#32;Merge)
+
+
+
 ### 1/2/2021
 
 [1326.MinimumNumberofTapstoOpentoWateraGarden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
