@@ -1,0 +1,26 @@
+#532. K-diff Pairs in an Array
+#https://leetcode.com/problems/k-diff-pairs-in-an-array/
+
+class Solution:
+    def findPairs(self, nums: List[int], k: int) -> int:
+        nums = sorted(nums)
+        L = len(nums)
+        l = 0
+        r = 1
+        
+        res = 0
+        
+        while l < L and r < L:
+            if l == r or nums[r] - nums[l] < k:
+                r += 1
+            elif nums[r] - nums[l] > k:
+                l += 1
+            
+            else:
+                l += 1
+                res += 1
+                while l < L and nums[l] == nums[l-1]:
+                    l += 1
+            
+        return res
+            
