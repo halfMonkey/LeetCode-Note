@@ -1,0 +1,16 @@
+#323. Number of Connected Components in an Undirected Graph
+#https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+
+class Solution:
+    def countComponents(self, n: int, edges: List[List[int]]) -> int:
+        p = [i for i in range(n)]
+        def find(v):
+            if p[v] != v:
+                p[v] = find(p[v])
+            return p[v]
+        
+        for e in edges:
+            v, w = map(find, e)
+            p[v] = w
+            n -= v != w
+        return n

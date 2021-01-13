@@ -87,6 +87,54 @@
 
 
 
+### 1/12/2021
+
+[130.SurroundedRegions](https://leetcode.com/problems/surrounded-regions/)
+
+
+ > [Source Code](./1-12-2021/130.&#32;Surrounded&#32;Regions)
+
+[323.NumberofConnectedComponentsinanUndirectedGraph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+
+
+ > [Source Code](./1-12-2021/323.&#32;Number&#32;of&#32;Connected&#32;Components&#32;in&#32;an&#32;Undirected&#32;Graph)
+
+[957.PrisonCellsAfterNDays](https://leetcode.com/problems/prison-cells-after-n-days/)
+
+
+ > [Source Code](./1-12-2021/957.&#32;Prison&#32;Cells&#32;After&#32;N&#32;Days)
+
+
+
+### 1/13/2021
+
+[1506.FindRootofN-AryTree](https://leetcode.com/problems/find-root-of-n-ary-tree/)
+
+
+ > [Source Code](./1-13-2021/1506.&#32;Find&#32;Root&#32;of&#32;N-Ary&#32;Tree)
+
+[261.GraphValidTree](https://leetcode.com/problems/graph-valid-tree/)
+
+
+ > [Source Code](./1-13-2021/261.&#32;Graph&#32;Valid&#32;Tree)
+
+[528.RandomPickwithWeight](https://leetcode.com/problems/random-pick-with-weight/)
+
+
+ > [Source Code](./1-13-2021/528.&#32;Random&#32;Pick&#32;with&#32;Weight)
+
+[881.BoatstoSavePeople](https://leetcode.com/problems/boats-to-save-people/)
+
+
+ > [Source Code](./1-13-2021/881.&#32;Boats&#32;to&#32;Save&#32;People)
+
+[959.RegionsCutBySlashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+
+
+ > [Source Code](./1-13-2021/959.&#32;Regions&#32;Cut&#32;By&#32;Slashes)
+
+
+
 ### 1/2/2021
 
 [1326.MinimumNumberofTapstoOpentoWateraGarden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
