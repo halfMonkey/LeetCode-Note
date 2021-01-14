@@ -135,6 +135,45 @@
 
 
 
+### 1/14/2021
+
+[1041.RobotBoundedInCircle](https://leetcode.com/problems/robot-bounded-in-circle/)
+
+
+ > [Source Code](./1-14-2021/1041.&#32;Robot&#32;Bounded&#32;In&#32;Circle)
+
+[1079.LetterTilePossibilities](https://leetcode.com/problems/letter-tile-possibilities/)
+
+
+ > [Source Code](./1-14-2021/1079.&#32;Letter&#32;Tile&#32;Possibilities)
+
+[1428.LeftmostColumnwithatLeastaOne](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)
+
+
+ > [Source Code](./1-14-2021/1428.&#32;Leftmost&#32;Column&#32;with&#32;at&#32;Least&#32;a&#32;One)
+
+[1658.MinimumOperationstoReduceXtoZero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
+
+
+ > [Source Code](./1-14-2021/1658.&#32;Minimum&#32;Operations&#32;to&#32;Reduce&#32;X&#32;to&#32;Zero)
+
+[54.SpiralMatrix](https://leetcode.com/problems/spiral-matrix/)
+
+
+ > [Source Code](./1-14-2021/54.&#32;Spiral&#32;Matrix)
+
+[7.ReverseInteger](https://leetcode.com/problems/reverse-integer/)
+
+
+ > [Source Code](./1-14-2021/7.&#32;Reverse&#32;Integer)
+
+[973.KClosestPointstoOrigin](https://leetcode.com/problems/k-closest-points-to-origin/)
+
+
+ > [Source Code](./1-14-2021/973.&#32;K&#32;Closest&#32;Points&#32;to&#32;Origin)
+
+
+
 ### 1/2/2021
 
 [1326.MinimumNumberofTapstoOpentoWateraGarden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
