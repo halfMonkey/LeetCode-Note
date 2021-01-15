@@ -174,6 +174,40 @@
 
 
 
+### 1/15/2021
+
+[1155.NumberofDiceRollsWithTargetSum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
+
+
+ > [Source Code](./1-15-2021/1155.&#32;Number&#32;of&#32;Dice&#32;Rolls&#32;With&#32;Target&#32;Sum)
+
+[1192.CriticalConnectionsinaNetwork](https://leetcode.com/problems/critical-connections-in-a-network/)
+
+
+ > [Source Code](./1-15-2021/1192.&#32;Critical&#32;Connections&#32;in&#32;a&#32;Network)
+
+[1646.GetMaximuminGeneratedArray](https://leetcode.com/problems/get-maximum-in-generated-array/)
+
+
+ > [Source Code](./1-15-2021/1646.&#32;Get&#32;Maximum&#32;in&#32;Generated&#32;Array)
+
+[339.NestedListWeightSum](https://leetcode.com/problems/nested-list-weight-sum/)
+
+
+ > [Source Code](./1-15-2021/339.&#32;Nested&#32;List&#32;Weight&#32;Sum)
+
+[588.DesignIn-MemoryFileSystem](https://leetcode.com/problems/design-in-memory-file-system/)
+
+
+ > [Source Code](./1-15-2021/588.&#32;Design&#32;In-Memory&#32;File&#32;System)
+
+[829.ConsecutiveNumbersSum](https://leetcode.com/problems/consecutive-numbers-sum/)
+
+
+ > [Source Code](./1-15-2021/829.&#32;Consecutive&#32;Numbers&#32;Sum)
+
+
+
 ### 1/2/2021
 
 [1326.MinimumNumberofTapstoOpentoWateraGarden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)

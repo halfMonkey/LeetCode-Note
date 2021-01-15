@@ -1,0 +1,65 @@
+#588. Design In-Memory File System
+#https://leetcode.com/problems/design-in-memory-file-system/
+
+class Node:
+    def __init__(self):
+        self.m = {}
+        self.isfile = False
+        self.content = ""
+        self.name = ""
+
+class FileSystem:
+    def split(self, name:str):
+        return name.split('/')
+    
+    def __init__(self):
+        self.node = Node()
+    def ls(self, path: str) -> List[str]:
+        cur = self.node
+        p   = self.split(path)
+        for i in p:
+            if i in cur.m:
+                cur = cur.m[i]
+                
+        ls = []
+        if cur.isfile:
+            return [cur.name]
+        
+        for i in cur.m:
+            ls.append(i)        
+        return sorted(ls)
+
+    def mkdir(self, path: str) -> None:
+        p = self.split(path)
+        cur = self.node
+        for i in p:
+            if i in cur.m:
+                cur = cur.m[i]
+            else:
+                cur.m[i] = Node()
+                cur = cur.m[i]
+                
+
+    def addContentToFile(self, filePath: str, content: str) -> None:
+        p = self.split(filePath)
+        cur = self.node
+        for i in p:
+            if i in cur.m:
+                cur = cur.m[i]
+            else:
+                cur.m[i] = Node()
+                cur = cur.m[i]
+        cur.isfile = True
+        cur.content += content
+        cur.name = p[-1]
+        
+    def readContentFromFile(self, filePath: str) -> str:
+        p = self.split(filePath)
+        cur = self.node
+        for i in p:
+            if i in cur.m:
+                cur = cur.m[i]
+            else:
+                print("does not have such file")
+            
+        return cur.content
