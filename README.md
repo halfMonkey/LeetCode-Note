@@ -208,6 +208,35 @@
 
 
 
+### 1/16/2021
+
+[1010.PairsofSongsWithTotalDurationsDivisibleby60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
+
+
+ > [Source Code](./1-16-2021/1010.&#32;Pairs&#32;of&#32;Songs&#32;With&#32;Total&#32;Durations&#32;Divisible&#32;by&#32;60)
+
+[31.NextPermutation](https://leetcode.com/problems/next-permutation/)
+
+
+ > [Source Code](./1-16-2021/31.&#32;Next&#32;Permutation)
+
+[518.CoinChange2](https://leetcode.com/problems/coin-change-2/)
+
+
+ > [Source Code](./1-16-2021/518.&#32;Coin&#32;Change&#32;2)
+
+[692.TopKFrequentWords](https://leetcode.com/problems/top-k-frequent-words/)
+
+
+ > [Source Code](./1-16-2021/692.&#32;Top&#32;K&#32;Frequent&#32;Words)
+
+[695.MaxAreaofIsland](https://leetcode.com/problems/max-area-of-island/)
+
+
+ > [Source Code](./1-16-2021/695.&#32;Max&#32;Area&#32;of&#32;Island)
+
+
+
 ### 1/2/2021
 
 [1326.MinimumNumberofTapstoOpentoWateraGarden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
