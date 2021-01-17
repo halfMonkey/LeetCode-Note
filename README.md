@@ -249,7 +249,7 @@
 
  > [Source Code](./1-17-2021/1209.&#32;Remove&#32;All&#32;Adjacent&#32;Duplicates&#32;in&#32;String&#32;II)
 
-[706. Design HashMap](./1-17-2021/706. Design HashMap)
+[706DesignHashMap](https://leetcode.com/problems/design-hashmap/)
 
 
  > [Source Code](./1-17-2021/706.&#32;Design&#32;HashMap)
