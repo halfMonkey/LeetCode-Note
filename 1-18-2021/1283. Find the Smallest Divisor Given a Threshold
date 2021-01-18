@@ -1,0 +1,22 @@
+#1283. Find the Smallest Divisor Given a Threshold
+#https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+
+class Solution:
+    def smallestDivisor(self, nums: List[int], threshold: int) -> int:
+        Sum = lambda nums, x : sum([n // x + (0 if n % x == 0 else 1) for n in nums])
+        
+        l = 1
+        r = 2
+        while Sum(nums, r) > threshold:
+            l = r
+            r *= 2
+        
+        while l <= r:
+            m = l + (r-l) // 2
+            num = Sum(nums, m)
+            if num > threshold:
+                l = m + 1
+            else:
+                r = m - 1
+        
+        return l

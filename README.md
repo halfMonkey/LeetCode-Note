@@ -249,6 +249,11 @@
 
  > [Source Code](./1-17-2021/1209.&#32;Remove&#32;All&#32;Adjacent&#32;Duplicates&#32;in&#32;String&#32;II)
 
+[453.MinimumMovestoEqualArrayElements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)
+
+
+ > [Source Code](./1-17-2021/453.&#32;Minimum&#32;Moves&#32;to&#32;Equal&#32;Array&#32;Elements)
+
 [706DesignHashMap](https://leetcode.com/problems/design-hashmap/)
 
 
@@ -263,6 +268,30 @@
 
 
  > [Source Code](./1-17-2021/987.&#32;Vertical&#32;Order&#32;Traversal&#32;of&#32;a&#32;Binary&#32;Tree)
+
+
+
+### 1/18/2021
+
+[1283.FindtheSmallestDivisorGivenaThreshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+
+
+ > [Source Code](./1-18-2021/1283.&#32;Find&#32;the&#32;Smallest&#32;Divisor&#32;Given&#32;a&#32;Threshold)
+
+[14.LongestCommonPrefix](https://leetcode.com/problems/longest-common-prefix/)
+
+
+ > [Source Code](./1-18-2021/14.&#32;Longest&#32;Common&#32;Prefix)
+
+[1472.DesignBrowserHistory](https://leetcode.com/problems/design-browser-history/)
+
+
+ > [Source Code](./1-18-2021/1472.&#32;Design&#32;Browser&#32;History)
+
+[811.SubdomainVisitCount](https://leetcode.com/problems/subdomain-visit-count/)
+
+
+ > [Source Code](./1-18-2021/811.&#32;Subdomain&#32;Visit&#32;Count)
 
 
 

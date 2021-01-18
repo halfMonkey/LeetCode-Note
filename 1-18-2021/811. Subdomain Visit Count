@@ -1,0 +1,21 @@
+#811. Subdomain Visit Count
+#https://leetcode.com/problems/subdomain-visit-count/
+
+class Solution:
+    def subdomainVisits(self, cpdomains: List[str]) -> List[str]:
+        m = collections.defaultdict(int)
+        
+        for name in cpdomains:
+            token = name.split()
+            m[token[1]] +=  int(token[0])
+            tk = token[1].split('.')
+            idx = len(tk[0])+1
+            for i in range(1, len(tk)):
+                m[token[1][idx:]] += int(token[0])
+                idx += len(tk[i])+1
+            
+        res = []
+        for i in m:
+            res.append(str(m[i]) + " " + i)
+        
+        return res
