@@ -1,0 +1,13 @@
+#442. Find All Duplicates in an Array
+#https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+class Solution:
+    def findDuplicates(self, nums: List[int]) -> List[int]:
+        res = []
+        for i in nums:
+            abs_i = abs(i)
+            if nums[abs_i - 1] < 0:
+                res.append(abs_i)
+            nums[abs_i -1] *= -1
+        return res
+        

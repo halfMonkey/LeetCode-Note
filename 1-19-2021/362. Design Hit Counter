@@ -1,0 +1,32 @@
+#362. Design Hit Counter
+#https://leetcode.com/problems/design-hit-counter/
+
+class HitCounter:
+
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.ls = collections.deque()
+        
+
+    def hit(self, timestamp: int) -> None:
+        """
+        Record a hit.
+        @param timestamp - The current timestamp (in seconds granularity).
+        """
+        self.ls.append(timestamp)
+
+    def getHits(self, timestamp: int) -> int:
+        """
+        Return the number of hits in the past 5 minutes.
+        @param timestamp - The current timestamp (in seconds granularity).
+        """
+        while self.ls:
+            diff = timestamp - self.ls[0]
+            if diff >= 300: 
+                self.ls.popleft()
+            else: 
+                break
+        return len(self.ls)
+    

@@ -249,11 +249,6 @@
 
  > [Source Code](./1-17-2021/1209.&#32;Remove&#32;All&#32;Adjacent&#32;Duplicates&#32;in&#32;String&#32;II)
 
-[453.MinimumMovestoEqualArrayElements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)
-
-
- > [Source Code](./1-17-2021/453.&#32;Minimum&#32;Moves&#32;to&#32;Equal&#32;Array&#32;Elements)
-
 [706DesignHashMap](https://leetcode.com/problems/design-hashmap/)
 
 
@@ -288,10 +283,49 @@
 
  > [Source Code](./1-18-2021/1472.&#32;Design&#32;Browser&#32;History)
 
+[453.MinimumMovestoEqualArrayElements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)
+
+
+ > [Source Code](./1-18-2021/453.&#32;Minimum&#32;Moves&#32;to&#32;Equal&#32;Array&#32;Elements)
+
 [811.SubdomainVisitCount](https://leetcode.com/problems/subdomain-visit-count/)
 
 
  > [Source Code](./1-18-2021/811.&#32;Subdomain&#32;Visit&#32;Count)
+
+
+
+### 1/19/2021
+
+[362.DesignHitCounter](https://leetcode.com/problems/design-hit-counter/)
+
+
+ > [Source Code](./1-19-2021/362.&#32;Design&#32;Hit&#32;Counter)
+
+[442.FindAllDuplicatesinanArray](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+
+
+ > [Source Code](./1-19-2021/442.&#32;Find&#32;All&#32;Duplicates&#32;in&#32;an&#32;Array)
+
+[445.AddTwoNumbersII](https://leetcode.com/problems/add-two-numbers-ii/)
+
+
+ > [Source Code](./1-19-2021/445.&#32;Add&#32;Two&#32;Numbers&#32;II)
+
+[509.FibonacciNumber](https://leetcode.com/problems/fibonacci-number/)
+
+
+ > [Source Code](./1-19-2021/509.&#32;Fibonacci&#32;Number)
+
+[680.ValidPalindromeII](https://leetcode.com/problems/valid-palindrome-ii/)
+
+
+ > [Source Code](./1-19-2021/680.&#32;Valid&#32;Palindrome&#32;II)
+
+[9.PalindromeNumber](https://leetcode.com/problems/palindrome-number/)
+
+
+ > [Source Code](./1-19-2021/9.&#32;Palindrome&#32;Number)
 
 
 
