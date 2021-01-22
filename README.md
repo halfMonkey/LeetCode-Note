@@ -358,6 +358,45 @@
 
 
 
+### 1/21/2021
+
+[13.RomantoInteger](https://leetcode.com/problems/roman-to-integer/)
+
+
+ > [Source Code](./1-21-2021/13.&#32;Roman&#32;to&#32;Integer)
+
+[332.ReconstructItinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+
+
+ > [Source Code](./1-21-2021/332.&#32;Reconstruct&#32;Itinerary)
+
+[37.SudokuSolver](https://leetcode.com/problems/sudoku-solver/)
+
+
+ > [Source Code](./1-21-2021/37.&#32;Sudoku&#32;Solver)
+
+[6.ZigZagConversion](https://leetcode.com/problems/zigzag-conversion/)
+
+
+ > [Source Code](./1-21-2021/6.&#32;ZigZag&#32;Conversion)
+
+[609.FindDuplicateFileinSystem](https://leetcode.com/problems/find-duplicate-file-in-system/)
+
+
+ > [Source Code](./1-21-2021/609.&#32;Find&#32;Duplicate&#32;File&#32;in&#32;System)
+
+[67.AddBinary](https://leetcode.com/problems/add-binary/)
+
+
+ > [Source Code](./1-21-2021/67.&#32;Add&#32;Binary)
+
+[69.Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+
+
+ > [Source Code](./1-21-2021/69.&#32;Sqrt(x))
+
+
+
 ### 1/3/2021
 
 [1048.LongestStringChain](https://leetcode.com/problems/longest-string-chain/)
