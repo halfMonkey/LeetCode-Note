@@ -1,0 +1,17 @@
+#203. Remove Linked List Elements
+#https://leetcode.com/problems/remove-linked-list-elements/
+
+class Solution:
+    def removeElements(self, head: ListNode, val: int) -> ListNode:
+        dummy = prev = ListNode(-1)
+        dummy.next = cur = head
+        
+        while cur:
+            if cur.val == val:
+                prev.next = cur.next
+            else:
+                prev = prev.next
+            
+            cur = cur.next
+            
+        return dummy.next

@@ -397,6 +397,40 @@
 
 
 
+### 1/22/2021
+
+[1348.TweetCountsPerFrequency](https://leetcode.com/problems/tweet-counts-per-frequency/)
+
+
+ > [Source Code](./1-22-2021/1348.&#32;Tweet&#32;Counts&#32;Per&#32;Frequency)
+
+[202.HappyNumber](https://leetcode.com/problems/happy-number/)
+
+
+ > [Source Code](./1-22-2021/202.&#32;Happy&#32;Number)
+
+[203.RemoveLinkedListElements](https://leetcode.com/problems/remove-linked-list-elements/)
+
+
+ > [Source Code](./1-22-2021/203.&#32;Remove&#32;Linked&#32;List&#32;Elements)
+
+[211.DesignAddandSearchWordsDataStructure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+
+
+ > [Source Code](./1-22-2021/211.&#32;Design&#32;Add&#32;and&#32;Search&#32;Words&#32;Data&#32;Structure)
+
+[348.DesignTic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)
+
+
+ > [Source Code](./1-22-2021/348.&#32;Design&#32;Tic-Tac-Toe)
+
+[387.FirstUniqueCharacterinaString](https://leetcode.com/problems/first-unique-character-in-a-string/)
+
+
+ > [Source Code](./1-22-2021/387.&#32;First&#32;Unique&#32;Character&#32;in&#32;a&#32;String)
+
+
+
 ### 1/3/2021
 
 [1048.LongestStringChain](https://leetcode.com/problems/longest-string-chain/)
