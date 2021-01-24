@@ -431,6 +431,35 @@
 
 
 
+### 1/23/2021
+
+[341.FlattenNestedListIterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
+
+
+ > [Source Code](./1-23-2021/341.&#32;Flatten&#32;Nested&#32;List&#32;Iterator)
+
+[393.UTF-8Validation](https://leetcode.com/problems/utf-8-validation/)
+
+
+ > [Source Code](./1-23-2021/393.&#32;UTF-8&#32;Validation)
+
+[468.ValidateIPAddress](https://leetcode.com/problems/validate-ip-address/)
+
+
+ > [Source Code](./1-23-2021/468.&#32;Validate&#32;IP&#32;Address)
+
+[50.Pow(x,n)](https://leetcode.com/problems/powx-n/)
+
+
+ > [Source Code](./1-23-2021/50.&#32;Pow(x,&#32;n))
+
+[909.SnakesandLadders](https://leetcode.com/problems/snakes-and-ladders/)
+
+
+ > [Source Code](./1-23-2021/909.&#32;Snakes&#32;and&#32;Ladders)
+
+
+
 ### 1/3/2021
 
 [1048.LongestStringChain](https://leetcode.com/problems/longest-string-chain/)
