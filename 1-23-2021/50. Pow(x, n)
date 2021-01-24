@@ -1,0 +1,20 @@
+#50. Pow(x, n)
+#https://leetcode.com/problems/powx-n/
+
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        N = n
+        if N < 0:
+            x = 1/x
+            N = -N
+            
+        ans = 1
+        cur = x
+        
+        i = N
+        while i > 0:
+            if i % 2 == 1:
+                ans *= cur
+            cur *= cur
+            i //= 2
+        return ans
