@@ -1,0 +1,34 @@
+#173. Binary Search Tree Iterator
+#https://leetcode.com/problems/binary-search-tree-iterator/
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class BSTIterator:
+
+    def __init__(self, root: TreeNode):
+        if root:
+            self.ls = collections.deque()
+            node = root
+            while node:
+                self.ls.append(node)
+                node = node.left
+
+    def next(self) -> int:
+        node = self.ls.pop()
+        val = node.val
+        if node.right:
+            node = node.right
+            while node:
+                self.ls.append(node)
+                node = node.left
+    
+        return val
+
+    def hasNext(self) -> bool:
+        return len(self.ls) > 0
+        
+
