@@ -1,0 +1,24 @@
+#38. Count and Say
+#https://leetcode.com/problems/count-and-say/
+
+class Solution:
+    def countAndSay(self, n: int) -> str:
+        def say(s):
+            cur = s[0]
+            res = ""
+            c = 1
+            for i in range(1,len(s)):
+                if s[i] != cur:
+                    res += str(c) + cur 
+                    c = 1
+                    cur = s[i]
+                else:
+                    c += 1
+                    
+            res += str(c) + cur
+            return res
+        
+        res = "1"
+        for i in range(n-1):
+            res = say(res) 
+        return res

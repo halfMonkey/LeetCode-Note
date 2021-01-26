@@ -1,0 +1,21 @@
+#131. Palindrome Partitioning
+#https://leetcode.com/problems/palindrome-partitioning/submissions/
+
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
+        def isP(s, l, r):
+            while l < r:
+                if s[l] != s[r]: return False
+                l += 1 ; r -= 1
+            return True
+        
+        def dfs(idx = 0, res=[], cur=[], s=s):
+            if idx >= len(s):
+                res.append(cur)
+            for end in range(idx, len(s)):
+                if isP(s, idx, end):
+                    dfs(end+1,res,cur + [s[idx:end+1]],s)
+        res = []
+        dfs(res = res)
+        return res
+                
