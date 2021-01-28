@@ -528,6 +528,79 @@
 
 
 
+### 1/26/2021
+
+[1130.MinimumCostTreeFromLeafValues](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
+
+
+ > [Source Code](./1-26-2021/1130.&#32;Minimum&#32;Cost&#32;Tree&#32;From&#32;Leaf&#32;Values)
+
+[1480.RunningSumof1dArray](https://leetcode.com/problems/running-sum-of-1d-array/)
+
+
+ > [Source Code](./1-26-2021/1480.&#32;Running&#32;Sum&#32;of&#32;1d&#32;Array)
+
+[162.FindPeakElement](https://leetcode.com/problems/find-peak-element/)
+
+
+ > [Source Code](./1-26-2021/162.&#32;Find&#32;Peak&#32;Element)
+
+[18.4Sum](https://leetcode.com/problems/4sum/)
+
+
+ > [Source Code](./1-26-2021/18.&#32;4Sum)
+
+[344.ReverseString](https://leetcode.com/problems/reverse-string/)
+
+
+ > [Source Code](./1-26-2021/344.&#32;Reverse&#32;String)
+
+[353.DesignSnakeGame](https://leetcode.com/problems/design-snake-game/)
+
+
+ > [Source Code](./1-26-2021/353.&#32;Design&#32;Snake&#32;Game)
+
+[74.Searcha2DMatrix](https://leetcode.com/problems/search-a-2d-matrix/)
+
+
+ > [Source Code](./1-26-2021/74.&#32;Search&#32;a&#32;2D&#32;Matrix)
+
+
+
+### 1/27/2021
+
+[118.Pascal'sTriangle](https://leetcode.com/problems/pascals-triangle/)
+
+
+ > [Source Code](./1-27-2021/118.&#32;Pascal's&#32;Triangle)
+
+[133.CloneGraph](https://leetcode.com/problems/clone-graph/)
+
+
+ > [Source Code](./1-27-2021/133.&#32;Clone&#32;Graph)
+
+[143.ReorderList](https://leetcode.com/problems/reorder-list/)
+
+
+ > [Source Code](./1-27-2021/143.&#32;Reorder&#32;List)
+
+[359.LoggerRateLimiter](https://leetcode.com/problems/logger-rate-limiter/)
+
+
+ > [Source Code](./1-27-2021/359.&#32;Logger&#32;Rate&#32;Limiter)
+
+[503.NextGreaterElementII](https://leetcode.com/problems/next-greater-element-ii/)
+
+
+ > [Source Code](./1-27-2021/503.&#32;Next&#32;Greater&#32;Element&#32;II)
+
+[636.ExclusiveTimeofFunctions](https://leetcode.com/problems/exclusive-time-of-functions/)
+
+
+ > [Source Code](./1-27-2021/636.&#32;Exclusive&#32;Time&#32;of&#32;Functions)
+
+
+
 ### 1/3/2021
 
 [1048.LongestStringChain](https://leetcode.com/problems/longest-string-chain/)

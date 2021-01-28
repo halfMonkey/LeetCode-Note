@@ -1,0 +1,16 @@
+#503. Next Greater Element II
+#https://leetcode.com/problems/next-greater-element-ii/
+
+class Solution:
+    def nextGreaterElements(self, nums: List[int]) -> List[int]:
+        res = [-1] * len(nums)
+        ls = []
+        for i in range(2*len(nums)-1, -1, -1):
+            while ls and nums[ls[-1]] <= nums[i % len(nums)]:
+                ls.pop()
+            if ls:
+                res[i%len(nums)] = nums[ls[-1]]
+            ls.append(i % len(nums))
+        
+        return res
+                

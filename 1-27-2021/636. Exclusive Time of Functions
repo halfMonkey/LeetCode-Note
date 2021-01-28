@@ -1,0 +1,26 @@
+#636. Exclusive Time of Functions
+#https://leetcode.com/problems/exclusive-time-of-functions/
+
+class Solution:
+    def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
+        ls = [] 
+        res = [0] * n
+        s = logs[0].split(':')
+        ls.append(int(s[0]))
+        i = 1
+        pre = int(s[2])
+        
+        while i < len(logs):
+            s = logs[i].split(':')
+            if s[1] == "start":
+                if ls:
+                    res[ls[-1]] += int(s[2]) - pre
+                ls.append(int(s[0]))
+                pre = int(s[2])
+            else:
+                res[ls[-1]] += int(s[2]) - pre + 1
+                ls.pop()
+                pre = int(s[2]) + 1
+            i += 1
+            
+        return res

@@ -1,0 +1,17 @@
+#74. Search a 2D Matrix
+#https://leetcode.com/problems/search-a-2d-matrix/
+
+class Solution:
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        
+        l = r = 0
+        
+        while l < len(matrix) and r < len(matrix[0]):
+            if target == matrix[l][r]:
+                return True
+            elif target > matrix[l][-1]:
+                l += 1
+            else:
+                r += 1
+        
+        return False
