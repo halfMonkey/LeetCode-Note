@@ -1,0 +1,25 @@
+#346. Moving Average from Data Stream
+#https://leetcode.com/problems/moving-average-from-data-stream/
+
+class MovingAverage:
+
+    def __init__(self, size: int):
+        """
+        Initialize your data structure here.
+        """
+        self.ls = collections.deque()
+        self.a = 0
+        self.c = 0
+        self.size = size
+    def next(self, val: int) -> float:
+        if self.c < self.size:
+            self.a += val
+            self.c += 1
+            self.ls.append(val)
+        else:
+            v = self.ls.popleft()
+            self.a -= v
+            self.a += val
+            self.ls.append(val)
+            
+        return self.a / self.c

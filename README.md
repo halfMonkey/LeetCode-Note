@@ -601,6 +601,69 @@
 
 
 
+### 1/28/2021
+
+[242.ValidAnagram](https://leetcode.com/problems/valid-anagram/)
+
+
+ > [Source Code](./1-28-2021/242.&#32;Valid&#32;Anagram)
+
+[29.DivideTwoIntegers](https://leetcode.com/problems/divide-two-integers/)
+
+
+ > [Source Code](./1-28-2021/29.&#32;Divide&#32;Two&#32;Integers)
+
+[539.MinimumTimeDifference](https://leetcode.com/problems/minimum-time-difference/)
+
+
+ > [Source Code](./1-28-2021/539.&#32;Minimum&#32;Time&#32;Difference)
+
+[718.MaximumLengthofRepeatedSubarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+
+
+ > [Source Code](./1-28-2021/718.&#32;Maximum&#32;Length&#32;of&#32;Repeated&#32;Subarray)
+
+[86.PartitionList](https://leetcode.com/problems/partition-list/)
+
+
+ > [Source Code](./1-28-2021/86.&#32;Partition&#32;List)
+
+
+
+### 1/29/2021
+
+[1029.TwoCityScheduling](https://leetcode.com/problems/two-city-scheduling/)
+
+
+ > [Source Code](./1-29-2021/1029.&#32;Two&#32;City&#32;Scheduling)
+
+[346.MovingAveragefromDataStream](https://leetcode.com/problems/moving-average-from-data-stream/)
+
+
+ > [Source Code](./1-29-2021/346.&#32;Moving&#32;Average&#32;from&#32;Data&#32;Stream)
+
+[43.MultiplyStrings](https://leetcode.com/problems/multiply-strings/)
+
+
+ > [Source Code](./1-29-2021/43.&#32;Multiply&#32;Strings)
+
+[523.ContinuousSubarraySum](https://leetcode.com/problems/continuous-subarray-sum/)
+
+
+ > [Source Code](./1-29-2021/523.&#32;Continuous&#32;Subarray&#32;Sum)
+
+[71.SimplifyPath](https://leetcode.com/problems/simplify-path/)
+
+
+ > [Source Code](./1-29-2021/71.&#32;Simplify&#32;Path)
+
+[729.MyCalendarI](https://leetcode.com/problems/my-calendar-i/)
+
+
+ > [Source Code](./1-29-2021/729.&#32;My&#32;Calendar&#32;I)
+
+
+
 ### 1/3/2021
 
 [1048.LongestStringChain](https://leetcode.com/problems/longest-string-chain/)

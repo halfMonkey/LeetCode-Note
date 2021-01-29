@@ -1,0 +1,19 @@
+#523. Continuous Subarray Sum
+#https://leetcode.com/problems/continuous-subarray-sum/
+
+class Solution:
+    def checkSubarraySum(self, nums: List[int], k: int) -> bool:
+        sums = 0
+        m = {0:-1}
+        
+        for i in range(len(nums)):
+            sums += nums[i]
+            if k != 0:
+                sums = sums % k
+            if sums in m:
+                if i - m[sums] > 1:
+                    return True
+            else:
+                m[sums] = i
+        
+        return False
