@@ -1,0 +1,22 @@
+#1091. Shortest Path in Binary Matrix
+#https://leetcode.com/problems/shortest-path-in-binary-matrix/
+
+class Solution:
+    def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
+        s = collections.deque([(0,0,1)])
+        mv = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
+        v = set((0,0))
+        res = -1
+        if grid[0][0] != 0 or grid[-1][-1] != 0:
+            return -1
+        while s:
+            x, y, lv = s.popleft()
+            if x == len(grid)-1 and y == len(grid[0])-1:
+                return lv
+            for i, j in mv:
+                mx, my = x + i, y + j
+                if 0 <= mx < len(grid) and 0 <= my < len(grid[0]):
+                    if (mx, my) not in v and grid[mx][my] == 0:
+                        v.add((mx,my))
+                        s.append((mx,my,lv+1))
+        return res
