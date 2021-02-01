@@ -737,6 +737,40 @@
 
 
 
+### 1/31/2021
+
+[1742.MaximumNumberofBallsinaBox](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)
+
+
+ > [Source Code](./1-31-2021/1742.&#32;Maximum&#32;Number&#32;of&#32;Balls&#32;in&#32;a&#32;Box)
+
+[1743.RestoretheArrayFromAdjacentPairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)
+
+
+ > [Source Code](./1-31-2021/1743.&#32;Restore&#32;the&#32;Array&#32;From&#32;Adjacent&#32;Pairs)
+
+[312.BurstBalloons](https://leetcode.com/problems/burst-balloons/)
+
+
+ > [Source Code](./1-31-2021/312.&#32;Burst&#32;Balloons)
+
+[63.UniquePathsII](https://leetcode.com/problems/unique-paths-ii/)
+
+
+ > [Source Code](./1-31-2021/63.&#32;Unique&#32;Paths&#32;II)
+
+[87.ScrambleString](https://leetcode.com/problems/scramble-string/)
+
+
+ > [Source Code](./1-31-2021/87.&#32;Scramble&#32;String)
+
+[95.UniqueBinarySearchTreesII](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+
+
+ > [Source Code](./1-31-2021/95.&#32;Unique&#32;Binary&#32;Search&#32;Trees&#32;II)
+
+
+
 ### 1/4/2021
 
 [105.ConstructBinaryTreefromPreorderandInorderTraversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
