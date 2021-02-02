@@ -1450,3 +1450,47 @@
 
 
 
+### 2/1/2021
+
+[120.Triangle](https://leetcode.com/problems/triangle/)
+
+
+ > [Source Code](./2-1-2021/120.&#32;Triangle)
+
+[151.ReverseWordsinaString](https://leetcode.com/problems/reverse-words-in-a-string/)
+
+
+ > [Source Code](./2-1-2021/151.&#32;Reverse&#32;Words&#32;in&#32;a&#32;String)
+
+[16.3SumClosest](https://leetcode.com/problems/3sum-closest/)
+
+
+ > [Source Code](./2-1-2021/16.&#32;3Sum&#32;Closest)
+
+[325.MaximumSizeSubarraySumEqualsk](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+
+
+ > [Source Code](./2-1-2021/325.&#32;Maximum&#32;Size&#32;Subarray&#32;Sum&#32;Equals&#32;k)
+
+[363.MaxSumofRectangleNoLargerThanK](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+
+
+ > [Source Code](./2-1-2021/363.&#32;Max&#32;Sum&#32;of&#32;Rectangle&#32;No&#32;Larger&#32;Than&#32;K)
+
+[560.SubarraySumEqualsK](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+
+ > [Source Code](./2-1-2021/560.&#32;Subarray&#32;Sum&#32;Equals&#32;K)
+
+[724.FindPivotIndex](https://leetcode.com/problems/find-pivot-index/)
+
+
+ > [Source Code](./2-1-2021/724.&#32;Find&#32;Pivot&#32;Index)
+
+[920.NumberofMusicPlaylists](https://leetcode.com/problems/number-of-music-playlists/)
+
+
+ > [Source Code](./2-1-2021/920.&#32;Number&#32;of&#32;Music&#32;Playlists)
+
+
+
