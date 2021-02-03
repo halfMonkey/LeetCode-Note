@@ -1494,3 +1494,37 @@
 
 
 
+### 2/2/2021
+
+[1314.MatrixBlockSum](https://leetcode.com/problems/matrix-block-sum/)
+
+
+ > [Source Code](./2-2-2021/1314.&#32;Matrix&#32;Block&#32;Sum)
+
+[1578.MinimumDeletionCosttoAvoidRepeatingLetters](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)
+
+
+ > [Source Code](./2-2-2021/1578.&#32;Minimum&#32;Deletion&#32;Cost&#32;to&#32;Avoid&#32;Repeating&#32;Letters)
+
+[188.BestTimetoBuyandSellStockIV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+
+
+ > [Source Code](./2-2-2021/188.&#32;Best&#32;Time&#32;to&#32;Buy&#32;and&#32;Sell&#32;Stock&#32;IV)
+
+[378.KthSmallestElementinaSortedMatrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+
+ > [Source Code](./2-2-2021/378.&#32;Kth&#32;Smallest&#32;Element&#32;in&#32;a&#32;Sorted&#32;Matrix)
+
+[498.DiagonalTraverse](https://leetcode.com/problems/diagonal-traverse/)
+
+
+ > [Source Code](./2-2-2021/498.&#32;Diagonal&#32;Traverse)
+
+[698.PartitiontoKEqualSumSubsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+
+
+ > [Source Code](./2-2-2021/698.&#32;Partition&#32;to&#32;K&#32;Equal&#32;Sum&#32;Subsets)
+
+
+

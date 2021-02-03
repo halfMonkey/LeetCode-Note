@@ -1,0 +1,32 @@
+#698. Partition to K Equal Sum Subsets
+#https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+
+class Solution:
+    def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
+        total = mx = 0
+        for i in nums:
+            total += i
+            mx = max(mx, i)
+        if total % k != 0 or mx > total // k:
+            return False
+        
+        def bfs(nums, k, v, target, cur, nextIdx):
+            if k == 0:
+                return True
+            
+            if cur == target:
+                return bfs(nums, k-1, v, target, 0, 0)
+            
+            for i in range(nextIdx, len(nums)):
+                if not v[i] and cur + nums[i] <= target:
+                    v[i] = True
+                    if(bfs(nums, k, v, target, cur+ nums[i], i+1)):
+                        return True
+                    
+                    v[i] = False
+            
+            return False
+        
+        v = [False] * len(nums)
+        return bfs(nums, k, v, total // k, 0, 0)
+            

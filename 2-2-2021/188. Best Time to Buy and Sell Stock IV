@@ -1,0 +1,25 @@
+#188. Best Time to Buy and Sell Stock IV
+#https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+
+class Solution:
+    def maxProfit(self, k: int, prices: List[int]) -> int:
+        def solver(prices:List):
+            L = len(prices)
+            p = 0
+            for i in range(1, L):
+                if prices[i] > prices[i-1]:
+                    p += prices[i] - prices[i-1]
+            return p
+        
+        L = len(prices)
+        if k >= L // 2: return solver(prices)
+        
+        dp = [[0] * L for _ in range(k+1)]
+        for i in range(1, k+1):
+            mx = -prices[0]
+            for j in range(1,L):
+                dp[i][j] = max(dp[i][j-1], prices[j] + mx)
+                mx = max(mx, dp[i-1][j-1] - prices[j])
+        
+        return dp[k][-1]
+        
