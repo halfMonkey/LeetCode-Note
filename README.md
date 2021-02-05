@@ -1528,3 +1528,42 @@
 
 
 
+### 2/4/2021
+
+[1146.SnapshotArray](https://leetcode.com/problems/snapshot-array/)
+
+
+ > [Source Code](./2-4-2021/1146.&#32;Snapshot&#32;Array)
+
+[1744.CanYouEatYourFavoriteCandyonYourFavoriteDay](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
+
+
+ > [Source Code](./2-4-2021/1744.&#32;Can&#32;You&#32;Eat&#32;Your&#32;Favorite&#32;Candy&#32;on&#32;Your&#32;Favorite&#32;Day)
+
+[244.ShortestWordDistanceII](https://leetcode.com/problems/shortest-word-distance-ii/)
+
+
+ > [Source Code](./2-4-2021/244.&#32;Shortest&#32;Word&#32;Distance&#32;II)
+
+[340.LongestSubstringwithAtMostKDistinctCharacters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
+
+
+ > [Source Code](./2-4-2021/340.&#32;Longest&#32;Substring&#32;with&#32;At&#32;Most&#32;K&#32;Distinct&#32;Characters)
+
+[430.FlattenaMultilevelDoublyLinkedList](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+
+
+ > [Source Code](./2-4-2021/430.&#32;Flatten&#32;a&#32;Multilevel&#32;Doubly&#32;Linked&#32;List)
+
+[556.NextGreaterElementIII](https://leetcode.com/problems/next-greater-element-iii/)
+
+
+ > [Source Code](./2-4-2021/556.&#32;Next&#32;Greater&#32;Element&#32;III)
+
+[592.FractionAdditionandSubtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)
+
+
+ > [Source Code](./2-4-2021/592.&#32;Fraction&#32;Addition&#32;and&#32;Subtraction)
+
+
+

@@ -1,0 +1,17 @@
+#1744. Can You Eat Your Favorite Candy on Your Favorite Day
+#https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/
+
+class Solution:
+    def canEat(self, candiesCount: List[int], queries: List[List[int]]) -> List[bool]:
+        prefix = [0]
+        for i in candiesCount:
+            prefix.append(prefix[-1] + i)
+        print(prefix)
+        res = []
+        for j in queries:
+            limit = prefix[j[0]] // j[2]
+            if limit <= j[1] and j[1] < prefix[j[0] + 1]:
+                res.append(True)
+            else:
+                res.append(False)
+        return res
