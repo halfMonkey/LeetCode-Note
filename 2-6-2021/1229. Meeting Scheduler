@@ -1,0 +1,23 @@
+#1229. Meeting Scheduler
+#https://leetcode.com/problems/meeting-scheduler/
+
+class Solution:
+    def minAvailableDuration(self, slots1: List[List[int]], slots2: List[List[int]], duration: int) -> List[int]:
+        slots1.sort()
+        slots2.sort()
+            
+        l = r = 0
+        Len_A, Len_B = len(slots1), len(slots2)
+        while l < Len_A and r < Len_B:
+            s = max(slots1[l][0], slots2[r][0])
+            e = min(slots1[l][1], slots2[r][1])
+            
+            if e-s >= duration:
+                return [s, s+duration]
+            
+            if slots1[l][1] < slots2[r][1]:
+                l += 1
+            else:
+                r += 1
+        
+        return []

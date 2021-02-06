@@ -1,0 +1,19 @@
+#1353. Maximum Number of Events That Can Be Attended
+#https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/
+
+class Solution:
+    def maxEvents(self, events: List[List[int]]) -> int:
+        A = sorted(events, reverse = True)
+        h = []
+        res = d = 0
+        while A or h:
+            if not h:
+                d = A[-1][0]
+            while A and A[-1][0] <= d:
+                heapq.heappush(h, A.pop()[1])
+            heapq.heappop(h)
+            res += 1
+            d += 1
+            while h and h[0] < d:
+                heapq.heappop(h)
+        return res

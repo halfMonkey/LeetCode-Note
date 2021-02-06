@@ -1,0 +1,25 @@
+#36. Valid Sudoku
+#https://leetcode.com/problems/valid-sudoku/
+
+
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        row = [{} for i in range(9)]
+        col = [{} for i in range(9)]
+        block = [{} for i in range(9)]
+        index = lambda x, y: x // 3 * 3 + y // 3
+        M, N = len(board), len(board[0])
+        for i in range(M):
+            for j in range(N):
+                num = board[i][j]
+                if num != '.':
+                    num = int(num)
+                    row[i][num] = row[i].get(num, 0) + 1
+                    col[j][num] = col[j].get(num, 0) + 1
+                    idx = index(i,j)
+                    block[idx][num] = block[idx].get(num, 0) + 1
+                    
+                    if row[i][num] > 1 or col[j][num] > 1 or block[idx][num] > 1:
+                        return False
+                    
+        return True
