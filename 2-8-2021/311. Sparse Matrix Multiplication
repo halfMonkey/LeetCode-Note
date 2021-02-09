@@ -1,0 +1,16 @@
+#311. Sparse Matrix Multiplication
+#https://leetcode.com/problems/sparse-matrix-multiplication/
+
+class Solution:
+    def multiply(self, A: List[List[int]], B: List[List[int]]) -> List[List[int]]:
+        M,K,N = len(A),len(A[0]),len(B[0])
+        res = [[0] * N for _ in range(M)]
+        
+        for i in range(M):
+            for k in range(K):
+                if A[i][k] == 0: continue
+                for j in range(N):
+                    if B[k][j] != 0:
+                        res[i][j] += A[i][k] * B[k][j]
+                        
+        return res

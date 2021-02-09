@@ -1,0 +1,13 @@
+#867. Transpose Matrix
+#https://leetcode.com/problems/transpose-matrix/
+
+
+class Solution:
+    def transpose(self, A: List[List[int]]) -> List[List[int]]:
+        M, N = len(A), len(A[0])
+        B = [[0] * M for _ in range(N)]
+        for i in range(N):
+            for j in range(M):
+                B[i][j] = A[j][i]
+        
+        return B
