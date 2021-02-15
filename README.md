@@ -1494,6 +1494,45 @@
 
 
 
+### 2/14/2021
+
+[1481.LeastNumberofUniqueIntegersafterKRemovals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)
+
+
+ > [Source Code](./2-14-2021/1481.&#32;Least&#32;Number&#32;of&#32;Unique&#32;Integers&#32;after&#32;K&#32;Removals)
+
+[1758.MinimumChangesToMakeAlternatingBinaryString](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/)
+
+
+ > [Source Code](./2-14-2021/1758.&#32;Minimum&#32;Changes&#32;To&#32;Make&#32;Alternating&#32;Binary&#32;String)
+
+[1759.CountNumberofHomogenousSubstrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/)
+
+
+ > [Source Code](./2-14-2021/1759.&#32;Count&#32;Number&#32;of&#32;Homogenous&#32;Substrings)
+
+[1760.MinimumLimitofBallsinaBag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)
+
+
+ > [Source Code](./2-14-2021/1760.&#32;Minimum&#32;Limit&#32;of&#32;Balls&#32;in&#32;a&#32;Bag)
+
+[365.WaterandJugProblem](https://leetcode.com/problems/water-and-jug-problem/)
+
+
+ > [Source Code](./2-14-2021/365.&#32;Water&#32;and&#32;Jug&#32;Problem)
+
+[526.BeautifulArrangement](https://leetcode.com/problems/beautiful-arrangement/)
+
+
+ > [Source Code](./2-14-2021/526.&#32;Beautiful&#32;Arrangement)
+
+[797.AllPathsFromSourcetoTarget](https://leetcode.com/problems/all-paths-from-source-to-target/)
+
+
+ > [Source Code](./2-14-2021/797.&#32;All&#32;Paths&#32;From&#32;Source&#32;to&#32;Target)
+
+
+
 ### 2/2/2021
 
 [1314.MatrixBlockSum](https://leetcode.com/problems/matrix-block-sum/)
