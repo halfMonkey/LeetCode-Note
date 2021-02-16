@@ -1,0 +1,17 @@
+#356. Line Reflection
+#https://leetcode.com/problems/line-reflection/
+
+class Solution:
+    def isReflected(self, points: List[List[int]]) -> bool:
+        pset = set()
+        mi, mx = float('inf'), float('-inf')
+        for i in points:
+            mi = min(mi, i[0])
+            mx = max(mx, i[0])
+            pset.add(tuple(i))
+        mid = (mi+mx)/2
+        
+        for i in points:
+            if (mid + (mid - i[0]), i[1]) not in pset:
+                return False
+        return True

@@ -1,0 +1,28 @@
+#722. Remove Comments
+#https://leetcode.com/problems/remove-comments/
+
+class Solution:
+    def removeComments(self, source: List[str]) -> List[str]:
+        block = False
+        res = []
+        for l in source:
+            i = 0
+            if not block:
+                line = ""
+            while i < len(l):
+                token = l[i:i+2]
+                if token == "/*" and not block:
+                    block = True
+                    i += 1
+                elif token == "*/" and block:
+                    block = False
+                    i += 1
+                elif not block and token == "//":
+                    break
+                elif not block:
+                    line += l[i]
+                i += 1
+            if line and not block:
+                res.append(line)
+        
+        return res
