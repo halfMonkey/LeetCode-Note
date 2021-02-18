@@ -1,0 +1,23 @@
+#364. Nested List Weight Sum II
+#https://leetcode.com/problems/nested-list-weight-sum-ii/
+
+class Solution:
+    def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
+        res = []
+        def dfs(val, dp):
+            nonlocal res
+            if len(res) < dp: res.append(0) 
+            if val.isInteger():
+                res[dp-1] += val.getInteger()
+            else:
+                for i in val.getList():
+                    dfs(i, dp+1)
+                    
+        for i in nestedList:
+            dfs(i, 1)
+        lv = len(res)
+        total = 0
+        for i in res:
+            total += i * lv ; lv -= 1
+        return total
+            

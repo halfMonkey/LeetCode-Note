@@ -1,0 +1,15 @@
+#525. Contiguous Array
+#https://leetcode.com/problems/contiguous-array/
+
+class Solution:
+    def findMaxLength(self, nums: List[int]) -> int:
+        mx = c = 0
+        m  = {0:-1}
+        for i, v in enumerate(nums):
+            c += 1 if v == 1 else -1
+            if c in m:
+                mx = max(mx, i - m[c])
+            else:
+                m[c] = i
+        
+        return mx

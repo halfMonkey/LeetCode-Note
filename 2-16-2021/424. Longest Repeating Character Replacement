@@ -1,0 +1,17 @@
+#424. Longest Repeating Character Replacement
+#https://leetcode.com/problems/longest-repeating-character-replacement/
+
+class Solution:
+    def characterReplacement(self, s: str, k: int) -> int:
+        m = collections.defaultdict(int)
+        window = res = 0
+        
+        idx = 0
+        for i, v in enumerate(s):
+            m[v] += 1
+            res = max(res, m[v])
+            if i - idx + 1 > res + k:
+                m[s[idx]] -= 1
+                idx += 1
+        
+        return len(s) - idx

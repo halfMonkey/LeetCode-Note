@@ -1,0 +1,14 @@
+#901. Online Stock Span
+#https://leetcode.com/problems/online-stock-span/
+
+class StockSpanner:
+
+    def __init__(self):
+        self.ls = []
+
+    def next(self, price: int) -> int:
+        w=1
+        while self.ls and self.ls[-1][0] <= price:
+            w += self.ls.pop()[1]
+        self.ls.append((price, w))
+        return w
