@@ -1,0 +1,13 @@
+#1027. Longest Arithmetic Subsequence
+#https://leetcode.com/problems/longest-arithmetic-subsequence/
+
+class Solution:
+    def longestArithSeqLength(self, A):
+        dp = {}
+        mx = 2
+        for i in range(len(A)):
+            for j in range(i):
+                diff = A[i] - A[j]
+                dp[i, diff] = dp.get((j, diff), 1) + 1
+                mx = max(mx, dp[i, diff])
+        return mx

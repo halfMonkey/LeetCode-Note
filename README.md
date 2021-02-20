@@ -1,5 +1,14 @@
 # Leet Code Note 
 
+### .vscode
+
+[settings.json](./.vscode/settings.json)
+
+
+ > [Source Code](./.vscode/settings.json)
+
+
+
 ### 1/1/2021
 
 [115.DistinctSubsequences](https://leetcode.com/problems/distinct-subsequences/)
@@ -1559,6 +1568,7 @@
 
 ### 2/16/2021
 
+<<<<<<< HEAD
 
 
 ### 2/17/2021
@@ -1591,6 +1601,56 @@
 
 
  > [Source Code](./2-19-2021/983.&#32;Minimum&#32;Cost&#32;For&#32;Tickets)
+=======
+[1027.LongestArithmeticSubsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+
+
+ > [Source Code](./2-16-2021/1027.&#32;Longest&#32;Arithmetic&#32;Subsequence)
+
+[150.EvaluateReversePolishNotation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+
+
+ > [Source Code](./2-16-2021/150.&#32;Evaluate&#32;Reverse&#32;Polish&#32;Notation)
+
+[277.FindtheCelebrity](https://leetcode.com/problems/find-the-celebrity/)
+
+
+ > [Source Code](./2-16-2021/277.&#32;Find&#32;the&#32;Celebrity)
+
+[364.NestedListWeightSumII](https://leetcode.com/problems/nested-list-weight-sum-ii/)
+
+
+ > [Source Code](./2-16-2021/364.&#32;Nested&#32;List&#32;Weight&#32;Sum&#32;II)
+
+[424.LongestRepeatingCharacterReplacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+
+
+ > [Source Code](./2-16-2021/424.&#32;Longest&#32;Repeating&#32;Character&#32;Replacement)
+
+
+
+### 2/17/2021
+
+[525.ContiguousArray](https://leetcode.com/problems/contiguous-array/)
+
+
+ > [Source Code](./2-17-2021/525.&#32;Contiguous&#32;Array)
+
+[665.Non-decreasingArray](https://leetcode.com/problems/non-decreasing-array/)
+
+
+ > [Source Code](./2-17-2021/665.&#32;Non-decreasing&#32;Array)
+
+[670.MaximumSwap](https://leetcode.com/problems/maximum-swap/)
+
+
+ > [Source Code](./2-17-2021/670.&#32;Maximum&#32;Swap)
+
+[901.OnlineStockSpan](https://leetcode.com/problems/online-stock-span/)
+
+
+ > [Source Code](./2-17-2021/901.&#32;Online&#32;Stock&#32;Span)
+>>>>>>> b7c15db49ff578818a7740752c88d765a960c548
 
 
 

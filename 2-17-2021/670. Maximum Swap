@@ -1,0 +1,16 @@
+#670. Maximum Swap
+#https://leetcode.com/problems/maximum-swap/
+
+class Solution:
+    def maximumSwap(self, num: int) -> int:
+        A = list(map(int, str(num)))
+        m = {x:i for i, x in enumerate(A)}
+        for i, v in enumerate(A):
+            for d in range(9, v, -1):
+                if d in m and m[d] > i:
+                    A[m[d]], A[i] = A[i], A[m[d]]
+                    return int("".join(map(str, A)))
+                
+        return num
+
+        
