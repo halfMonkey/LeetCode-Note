@@ -1721,6 +1721,25 @@
 
 
 
+### 2/21/2021
+
+[1277.CountSquareSubmatriceswithAllOnes](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
+
+
+ > [Source Code](./2-21-2021/1277.&#32;Count&#32;Square&#32;Submatrices&#32;with&#32;All&#32;Ones)
+
+[249.GroupShiftedStrings](https://leetcode.com/problems/group-shifted-strings/)
+
+
+ > [Source Code](./2-21-2021/249.&#32;Group&#32;Shifted&#32;Strings)
+
+[384.ShuffleanArray](https://leetcode.com/problems/shuffle-an-array/solution/)
+
+
+ > [Source Code](./2-21-2021/384.&#32;Shuffle&#32;an&#32;Array)
+
+
+
 ### 2/4/2021
 
 [1146.SnapshotArray](https://leetcode.com/problems/snapshot-array/)
