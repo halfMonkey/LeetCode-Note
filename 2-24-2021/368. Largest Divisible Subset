@@ -1,0 +1,11 @@
+#368. Largest Divisible Subset
+#https://leetcode.com/problems/largest-divisible-subset/
+
+class Solution:
+    def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
+        nums.sort()
+        m = {-1:set()}
+        for i in nums:
+            m[i] = max([m[k] for k in m if i % k == 0], key=len) | {i}
+            
+        return list(max(m.values(), key=len))
