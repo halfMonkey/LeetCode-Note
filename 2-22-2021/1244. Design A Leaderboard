@@ -1,0 +1,15 @@
+#1244. Design A Leaderboard
+#https://leetcode.com/problems/design-a-leaderboard/
+
+class Leaderboard:
+    def __init__(self):
+        self.m = defaultdict(int)
+
+    def addScore(self, playerId: int, score: int) -> None:
+        self.m[playerId] += score
+
+    def top(self, K: int) -> int:
+        return sum(heapq.nlargest(K, self.m.values()))
+
+    def reset(self, playerId: int) -> None:
+        del self.m[playerId]

@@ -1740,6 +1740,35 @@
 
 
 
+### 2/22/2021
+
+[1011.CapacityToShipPackagesWithinDDays](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+
+
+ > [Source Code](./2-22-2021/1011.&#32;Capacity&#32;To&#32;Ship&#32;Packages&#32;Within&#32;D&#32;Days)
+
+[1244.DesignALeaderboard](https://leetcode.com/problems/design-a-leaderboard/)
+
+
+ > [Source Code](./2-22-2021/1244.&#32;Design&#32;A&#32;Leaderboard)
+
+[529.Minesweeper](https://leetcode.com/problems/minesweeper/)
+
+
+ > [Source Code](./2-22-2021/529.&#32;Minesweeper)
+
+[678.ValidParenthesisString](https://leetcode.com/problems/valid-parenthesis-string/)
+
+
+ > [Source Code](./2-22-2021/678.&#32;Valid&#32;Parenthesis&#32;String)
+
+[938.RangeSumofBST](https://leetcode.com/problems/range-sum-of-bst/)
+
+
+ > [Source Code](./2-22-2021/938.&#32;Range&#32;Sum&#32;of&#32;BST)
+
+
+
 ### 2/23/2021
 
 [314.BinaryTreeVerticalOrderTraversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
