@@ -1,0 +1,21 @@
+#42. Trapping Rain Water
+#https://leetcode.com/problems/trapping-rain-water/
+
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        res = 0
+        cur = 0
+        L = len(height)
+        st = []
+        while cur < L:
+            while st and height[cur] > height[st[-1]]:
+                top = st.pop()
+                if not st: break
+                dis = cur - st[-1] -1
+                res += dis * (min(height[cur], height[st[-1]]) - height[top])
+            
+            st.append(cur)
+            cur += 1
+        
+        return res
+                

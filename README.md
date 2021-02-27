@@ -1827,6 +1827,69 @@
 
 
 
+### 2/25/2021
+
+[121.BestTimetoBuyandSellStock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+
+ > [Source Code](./2-25-2021/121.&#32;Best&#32;Time&#32;to&#32;Buy&#32;and&#32;Sell&#32;Stock)
+
+[1335.MinimumDifficultyofaJobSchedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
+
+
+ > [Source Code](./2-25-2021/1335.&#32;Minimum&#32;Difficulty&#32;of&#32;a&#32;Job&#32;Schedule)
+
+[32.LongestValidParentheses](https://leetcode.com/problems/longest-valid-parentheses/)
+
+
+ > [Source Code](./2-25-2021/32.&#32;Longest&#32;Valid&#32;Parentheses)
+
+[42.TrappingRainWater](https://leetcode.com/problems/trapping-rain-water/)
+
+
+ > [Source Code](./2-25-2021/42.&#32;Trapping&#32;Rain&#32;Water)
+
+[5.LongestPalindromicSubstring](https://leetcode.com/problems/longest-palindromic-substring/)
+
+
+ > [Source Code](./2-25-2021/5.&#32;Longest&#32;Palindromic&#32;Substring)
+
+[91.DecodeWays](https://leetcode.com/problems/decode-ways/)
+
+
+ > [Source Code](./2-25-2021/91.&#32;Decode&#32;Ways)
+
+
+
+### 2/26/2021
+
+[1235.MaximumProfitinJobScheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+
+
+ > [Source Code](./2-26-2021/1235.&#32;Maximum&#32;Profit&#32;in&#32;Job&#32;Scheduling)
+
+[139.WordBreak](https://leetcode.com/problems/word-break/)
+
+
+ > [Source Code](./2-26-2021/139.&#32;Word&#32;Break)
+
+[221.MaximalSquare](https://leetcode.com/problems/maximal-square/)
+
+
+ > [Source Code](./2-26-2021/221.&#32;Maximal&#32;Square)
+
+[53.MaximumSubarray](https://leetcode.com/problems/maximum-subarray/)
+
+
+ > [Source Code](./2-26-2021/53.&#32;Maximum&#32;Subarray)
+
+[583.DeleteOperationforTwoStrings](https://leetcode.com/problems/delete-operation-for-two-strings/)
+
+
+ > [Source Code](./2-26-2021/583.&#32;Delete&#32;Operation&#32;for&#32;Two&#32;Strings)
+
+
+
 ### 2/4/2021
 
 [1146.SnapshotArray](https://leetcode.com/problems/snapshot-array/)
