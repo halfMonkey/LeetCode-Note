@@ -1,0 +1,27 @@
+#741. Cherry Pickup
+#https://leetcode.com/problems/cherry-pickup/
+
+class Solution:
+    def cherryPickup(self, grid):
+        N = len(grid)
+        S = (N-1) << 1 
+        dp = {(0, 0, 0): grid[0][0]}
+        moves = ((0, 0), (1, 0), (0, 1), (1, 1))
+        for s in range(1, S+1):
+            for y1 in range(min(s+1, N)):
+                x1 = s-y1
+                if x1 >= N or grid[y1][x1] == -1:
+                    continue
+                for y2 in range(y1, min(s+1, N)):
+                    x2 = s-y2
+                    if x2 >= N or grid[y2][x2] == -1:
+                        continue
+                    _max = -1 
+                    for dy1, dy2 in moves:
+                        _y1, _y2 = y1-dy1, y2-dy2
+                        if _y1 > _y2:
+                            continue
+                        _max = max(_max, dp.get((s-1, _y1, _y2), -1))
+                    if _max != -1:
+                        dp[s, y1, y2] = _max + grid[y1][x1] + grid[y2][x2] if y1 != y2 else _max + grid[y1][x1]
+        return dp.get((S, N-1, N-1), 0)

@@ -1,0 +1,32 @@
+#1774. Closest Dessert Cost
+#https://leetcode.com/problems/closest-dessert-cost/
+
+class Solution:
+    def closestCost(self, baseCosts: List[int], toppingCosts: List[int], target: int) -> int:
+        M, N = len(baseCosts), len(toppingCosts)
+        baseCosts.sort()
+        toppingCosts.sort()
+        
+        def dfs(tidx, cur):
+            if tidx >= N:
+                return cur
+            res = cur
+            for select in [0,1,2]:
+                c = dfs(tidx+1, cur + toppingCosts[tidx] * select)
+                dis = abs(target - c)
+                if dis < abs(target - res):
+                    res = c
+                elif dis == abs(target-res):
+                    if c < res:
+                        res = c
+            return res
+        
+        mi = 1000000
+        for i in baseCosts:
+            c = dfs(0, i)
+            dis = abs(target - c)
+            if dis < abs(target - mi):
+                mi = c
+        
+        return mi
+    

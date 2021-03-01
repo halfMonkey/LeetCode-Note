@@ -1,0 +1,34 @@
+#1531. String Compression II
+#https://leetcode.com/problems/string-compression-ii/
+
+class Solution:
+    def getLengthOfOptimalCompression(self, s: str, k: int) -> int:
+        n = len(s)
+        dp = [[n+1] * (k+2) for _ in range(n+1)]
+        dp[0][0] = 0
+        
+        for i in range(1, n+1):
+            for j in range(k+1):
+                dp[i][j+1] = min(dp[i][j+1], dp[i-1][j])
+                c = 0
+                rm = 0
+                for l in range(i, n+1):
+                    if s[i-1] == s[l-1]:
+                        c += 1
+                    else:
+                        rm += 1
+                    # we can remove those 
+                    if j + rm <= k:
+                        lens = dp[i-1][j] + 1
+                        if c >= 100:
+                            lens += 3
+                        elif c >= 10:
+                            lens += 2
+                        elif c >= 2:
+                            lens += 1
+                        # keep all those words or remove it
+                        dp[l][j+rm] = min(dp[l][j+rm], lens)
+                    else:
+                        break
+        
+        return dp[n][k]
